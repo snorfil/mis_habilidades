@@ -1,0 +1,81 @@
+¿Qué obligación tienen los responsables y encargados de tratamiento de datos según el RGPD?
+
+b. Están obligados a implementar medidas técnicas y organizativas para garantizar la protección de los datos personales.
+¿Cuál es uno de los derechos que otorga el RGPD a los individuos sobre sus datos personales?
+
+b. Derecho de acceso a obtener copias de sus datos personales y detalles sobre cómo se tratan.
+¿Cuál es la diferencia entre el proceso de ETL y la Integración de Datos?
+
+a. La Integración de Datos busca entregar una visión unificada de los datos a los usuarios o procesos.
+¿Qué implica la seudonimización de datos según el RGPD?
+
+d. Modificar los datos de manera que no se pueda reconocer la identidad de una persona sin información adicional.
+¿Qué derechos tienen los individuos en relación con el tratamiento de sus datos según el RGPD?
+
+c. Derecho de acceso, rectificación, cancelación, oposición y portabilidad, entre otros.
+¿Cuál es una ventaja de la Integración virtual de datos?
+
+d. No hay latencia en la vista final cuando un dato se añade o modifica en el origen.
+¿Qué implica la Integración Manual de datos?
+
+b. Los usuarios operan con los datos accediendo directamente a los sistemas de origen.
+¿Cuál es uno de los principales objetivos del proceso de ETL (Extract, Transform, Load)?
+
+d. Llevar los datos desde un origen a un destino.
+¿Qué se entiende por Gobierno de Datos?
+
+b. Ejercicio de control y autoridad sobre la gestión de datos para asegurar su correcta administración.
+¿Cuál es uno de los objetivos del Gobierno de Datos en relación con la privacidad de los datos?
+
+c. Asegurar la privacidad de los datos.
+¿Qué implica el Gobierno de Datos en relación con la gestión de riesgos de incidentes?
+
+b. Realizar una gestión general de riesgos respecto a posibles incidentes.
+¿Qué permite el almacenamiento de destino con un mecanismo para guardar un registro histórico de los estados de los datos?
+
+a. Auditar la información para conocer los distintos valores que ha tenido un dato a lo largo del tiempo.
+¿Qué implica la Integración Manual de datos?
+
+b. Los usuarios operan con los datos accediendo directamente a los sistemas de origen.
+¿Qué establece el RGPD en relación con el tratamiento de datos sin el consentimiento explícito de los interesados?
+
+a. Excepciones en casos de cumplimiento de obligaciones legales o protección de intereses vitales, entre otros.
+¿Qué implica la carga de datos de forma incremental en el proceso de ETL?
+
+a. Cargar datos nuevos y actualizar los existentes si es necesario.
+¿Cuál es uno de los objetivos de la Integración basada en middleware?
+
+b. Facilitar la integración de datos mediante una capa de middleware que permite la transformación de datos.
+¿Qué deben incluir los contratos entre responsables de tratamiento de datos y encargados designados según el RGPD?
+
+c. Estipulaciones sobre cómo el encargado tratará los datos y las medidas de seguridad que implementará.
+¿Qué implica el Gobierno de Datos en relación con la calidad de los datos?
+
+c. Asegurar la calidad de los datos mediante el perfilado y la monitorización.
+¿Cuál es uno de los objetivos específicos del Gobierno de Datos en relación con la seguridad de los datos?
+
+b. Asegurar la seguridad de los datos.
+¿Qué implica la notificación de violaciones de seguridad de datos según el RGPD?
+
+b. Los responsables deben notificar a la autoridad de control pertinente y, en algunos casos, a los interesados afectados.
+¿Cuáles son algunos de los posibles destinos de datos en el proceso de carga del ETL?
+
+d. Almacenes de datos para uso OLAP, ficheros planos, sistemas OLTP, sistemas de ficheros distribuidos, entre otros.
+¿Cuál es uno de los objetivos generales del Gobierno de Datos?
+
+a. Facilitar a las organizaciones la gestión de sus datos como activos.
+¿Qué caracteriza a la Integración basada en middleware?
+
+d. La lógica de la integración reside en una capa de middleware que facilita datos con algún tipo de transformación.
+¿Qué implica el Gobierno de Datos en relación con la arquitectura de datos?
+
+a. Diseñar la estructura lógica y física de los sistemas que manejan los datos.
+¿Qué se entiende por Gestión de Datos?
+
+d. Asegurar que la organización obtenga valor de los datos.
+¿Qué abarca el Gobierno de Datos en relación con la gestión de los datos?
+
+b. Definir, implementar y comunicar principios, políticas, procedimientos y métricas relacionados con los datos.
+¿Cuál es la definición de "Interesado" según el RGPD?
+
+b. Persona física identificada o identificable sobre la que se tratan datos personales.
