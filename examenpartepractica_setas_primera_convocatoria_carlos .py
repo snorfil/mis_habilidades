@@ -46,9 +46,8 @@ El conjunto de datos principalmente consiste en información sobre setas. Cada f
 ## Cargar el dataset
 
 import pandas as pd
-df_train = pd.read_csv('mushrooms.csv', delimiter=',')
 
-df_train
+df_train = pd.read_csv('mushrooms.csv', delimiter=',')
 
 """# Ejercicios
 
@@ -65,11 +64,7 @@ A continuación se presentan una serie de ejercicios que el alumno deberá resol
 ## **(0.2 puntos)** Ejercicio 1. Comprueba a través de un diagrama de barras si la variable a predecir (class) se encuentra balanceada o no.
 """
 
-import pandas as pd
 import matplotlib.pyplot as plt
-
-# Carga del dataset
-df_train = pd.read_csv('mushrooms.csv', delimiter=',')
 
 # Conteo de las clases
 conteo_class = df_train['class'].value_counts()
@@ -95,15 +90,10 @@ missing_df = pd.DataFrame({'Numero de nullos': missing_values, 'Porcentaje': mis
 # Filtrar y ordenar las columnas con valores nulos
 missing_df_sorted = missing_df[missing_df > 0].sort_values(by='Porcentaje', ascending=False)
 
-missing_df_sorted
-
 """## **(0.1 puntos)** Ejercicio 3. Comprueba qué valores diferentes existen para la variable **habitat** y comprueba que corresponde con su descripción en el enunciado del ejercicio"""
 
 # Obtención de los valores únicos para la variable 'habitat'
 unique_habitats = df_train['habitat'].unique()
-
-# Mostrar los valores únicos
-unique_habitats
 
 """# Preprocesamiento del dataset (2.5 puntos)
 
@@ -111,6 +101,7 @@ unique_habitats
 """
 
 from sklearn.base import BaseEstimator, TransformerMixin
+
 
 # Definición del transformador para eliminar columnas
 class EliminarColumnas(BaseEstimator, TransformerMixin):
@@ -123,7 +114,8 @@ class EliminarColumnas(BaseEstimator, TransformerMixin):
     def transform(self, X):
         # Verificar primero si las columnas existen antes de intentar eliminarlas
         cols_to_drop = [col for col in self.columns if col in X.columns]
-        return X.drop(cols_to_drop, axis=1, errors='ignore')
+        return X.drop(cols_to_drop, axis=1)
+
 
 """## **(0.2 puntos)** Ejercicio 5. Transformar todas las variables categóricas (**excepto class**) en numéricas utilizando la técnica de one-hot
 
@@ -134,25 +126,27 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 
-# Seleccionar todas las columnas categóricas excepto 'class'
-columnas_categoricas = df_train.select_dtypes(include='object').columns.drop('class')
+# Seleccionar todas las columnas categóricas
+categorical_data = df_train.select_dtypes(include='object')
+
+# Borrando la columna class
+columnas_categoricas = categorical_data.drop("class", axis=1).columns.tolist()
 
 # Crear un pipeline que aplique One-Hot Encoding a las columnas categóricas
 pipeline_categorico = Pipeline([
-    ('onehot', OneHotEncoder(handle_unknown='ignore'))
+    ('onehot', OneHotEncoder())
 ])
 
 # Crear un transformador de columnas para aplicar el pipeline solo a las columnas categóricas
 preprocessor = ColumnTransformer([
-    ('cat', pipeline_categorico, columnas_categoricas)
+    ('cat', OneHotEncoder(), columnas_categoricas)
 ])
 
 # Aplicar el preprocesador al DataFrame (excepto a la columna 'class')
-one_hot_data = preprocessor.fit_transform(df_train.drop('class', axis=1))
-
-one_hot_data
+one_hot_data = preprocessor.fit_transform(df_train)
 
 """## **(0.2 puntos)** Ejercicio 6. Convertir los valores **e** de *class* en 0 y los valores **p** en 1"""
+
 
 # Función para convertir los valores de 'class'
 def conversor(valor):
@@ -161,9 +155,9 @@ def conversor(valor):
     else:
         return 0
 
+
 # Aplicar la función de conversión y guardar los resultados
 df_class = df_train['class'].apply(conversor)
-df_class
 
 """## **(0.2 puntos)** Ejercicio 7. Crea un pipeline que agrupe todos los transformadores que se te han pedido. Dicho pipeline tienes que configurarlo para que elimine las columnas "veil-type","gill-color","bruises","ring-type"
 """
@@ -174,7 +168,7 @@ from sklearn.pipeline import Pipeline
 full_pipeline = Pipeline([
     ('eliminar_columnas', EliminarColumnas(columns=['veil-type', 'gill-color', 'bruises', 'ring-type'])),
     ('preprocesador', preprocessor),
-    ('clasificador', None)  # Aquí se podría añadir un clasificador
+    ('clasificador',)  # Aquí se podría añadir un clasificador
 ])
 
 # Aplicar el pipeline completo al dataset de entrenamiento
@@ -218,13 +212,12 @@ from sklearn.model_selection import train_test_split
 
 # Asignar las características y la variable objetivo
 X = high_corr_df  # Características filtradas por alta correlación
-y = df_class      # Variable objetivo ya convertida
+y = df_class  # Variable objetivo ya convertida
 
 # Dividir el dataset
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-
-ºfrom sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler
 
 # Crear un objeto StandardScaler
 scaler = StandardScaler()
@@ -308,6 +301,7 @@ Finalmente, interpreta los resultados indicando cuál de estos dos modelos y la 
 
 from sklearn.metrics import classification_report
 
+
 # Función para evaluar cada modelo
 def evaluate_model(model, X_test_scaled, y_test):
     y_pred = model.predict(X_test_scaled)
@@ -315,6 +309,7 @@ def evaluate_model(model, X_test_scaled, y_test):
     conf_mat = confusion_matrix(y_test, y_pred)
     sns.heatmap(conf_mat, annot=True, fmt='d', cmap='Blues')
     plt.show()
+
 
 # Evaluación de cada modelo SVM
 print("Evaluación del modelo SVM con kernel lineal:")

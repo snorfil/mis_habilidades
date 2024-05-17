@@ -1,0 +1,275 @@
+Esquema del Modelo de Datos:
+
+Clientes
+
+id_cliente (PK)
+nombre
+direccion
+preferencias_alimenticias
+Reservas
+
+id_reserva (PK)
+id_cliente (FK)
+fecha_llegada
+fecha_salida
+tipo_habitacion
+preferencias_comida
+id_restaurante (FK)
+Habitaciones
+
+id_habitacion (PK)
+numero
+categoria
+tarifa_por_noche
+Menús
+
+id_menu (PK)
+nombre
+precio
+disponibilidad
+Restaurantes
+
+id_restaurante (PK)
+nombre
+id_hotel (FK)
+Empleados
+
+id_empleado (PK)
+nombre
+posicion
+fecha_contratacion
+id_restaurante (FK)
+Código SQL para Crear la Base de Datos:
+
+sql
+Copiar código
+CREATE DATABASE CadenaHoteles;
+USE CadenaHoteles;
+
+CREATE TABLE Clientes (
+    id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    direccion VARCHAR(255),
+    preferencias_alimenticias TEXT
+);
+
+CREATE TABLE Habitaciones (
+    id_habitacion INT AUTO_INCREMENT PRIMARY KEY,
+    numero INT,
+    categoria VARCHAR(50),
+    tarifa_por_noche DECIMAL(10, 2)
+);
+
+CREATE TABLE Restaurantes (
+    id_restaurante INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    id_hotel INT
+);
+
+CREATE TABLE Menus (
+    id_menu INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    precio DECIMAL(10, 2),
+    disponibilidad VARCHAR(255)
+);
+
+CREATE TABLE Empleados (
+    id_empleado INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    posicion VARCHAR(50),
+    fecha_contratacion DATE,
+    id_restaurante INT,
+    FOREIGN KEY (id_restaurante) REFERENCES Restaurantes(id_restaurante)
+);
+
+CREATE TABLE Reservas (
+    id_reserva INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT,
+    fecha_llegada DATE,
+    fecha_salida DATE,
+    tipo_habitacion VARCHAR(50),
+    preferencias_comida TEXT,
+    id_restaurante INT,
+    FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente),
+    FOREIGN KEY (id_restaurante) REFERENCES Restaurantes(id_restaurante)
+
+
+
+
+Esquema del Modelo de Datos:
+
+Sensores
+
+id_sensor
+tipo
+ubicacion
+lecturas (array de objetos con timestamp y valores)
+Usuarios
+
+id_usuario
+nombre
+email
+organizaciones (array de ids de organizaciones)
+Organizaciones
+
+id_organizacion
+nombre
+usuarios (array de ids de usuarios)
+Alertas
+
+id_alerta
+id_sensor (FK)
+tipo_alerta
+mensaje
+timestamp
+Código para Crear la Base de Datos en MongoDB:
+
+json
+Copiar código
+use TelemetriaIoT;
+
+db.createCollection("Sensores");
+db.Sensores.insert({
+    id_sensor: 1,
+    tipo: "Temperatura",
+    ubicacion: "Sala de Servidores",
+    lecturas: [
+        { timestamp: ISODate("2024-05-17T10:00:00Z"), valor: 25.3 },
+        { timestamp: ISODate("2024-05-17T11:00:00Z"), valor: 26.1 }
+    ]
+});
+
+db.createCollection("Usuarios");
+db.Usuarios.insert({
+    id_usuario: 1,
+    nombre: "Juan Perez",
+    email: "juan.perez@example.com",
+    organizaciones: [1]
+});
+
+db.createCollection("Organizaciones");
+db.Organizaciones.insert({
+    id_organizacion: 1,
+    nombre: "Empresa XYZ",
+    usuarios: [1]
+});
+
+db.createCollection("Alertas");
+db.Alertas.insert({
+    id_alerta: 1,
+    id_sensor: 1,
+    tipo_alerta: "Temperatura Alta",
+    mensaje: "La temperatura ha superado los 30°C",
+    timestamp: ISODate("2024-05-17T11:30:00Z")
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+Esquema del Modelo de Datos:
+
+Usuario
+
+id_usuario
+nombre
+correo_electronico
+fecha_registro
+Publicacion
+
+id_publicacion
+contenido
+fecha
+tipo (texto, imagen, video)
+Comentario
+
+id_comentario
+contenido
+fecha
+Relaciones
+
+(Usuario)-[:AMIGO_DE]->(Usuario)
+(Usuario)-[:PUBLICA]->(Publicacion)
+(Publicacion)-[:TIENE_COMENTARIO]->(Comentario)
+Código para Crear la Base de Datos en Neo4j:
+
+cypher
+Copiar código
+CREATE (u1:Usuario {id_usuario: 1, nombre: "Alice", correo_electronico: "alice@example.com", fecha_registro: date("2024-05-01")});
+CREATE (u2:Usuario {id_usuario: 2, nombre: "Bob", correo_electronico: "bob@example.com", fecha_registro: date("2024-05-02")});
+
+CREATE (u1)-[:AMIGO_DE]->(u2);
+
+CREATE (p1:Publicacion {id_publicacion: 1, contenido: "Hello World!", fecha: datetime("2024-05-17T12:00:00"), tipo: "texto"});
+CREATE (c1:Comentario {id_comentario: 1, contenido: "Nice post!", fecha: datetime("2024-05-17T12:05:00")});
+
+CREATE (u1)-[:PUBLICA]->(p1);
+CREATE (p1)-[:TIENE_COMENTARIO]->(c1);
+
+
+
+#########################
+
+
+# Load necessary libraries
+library(ggplot2)
+library(datasets)
+
+# Read the dataset
+iris <- read.csv("/mnt/data/iris.csv")
+
+# 1. Recounts of the variable "Species"
+species_plot <- ggplot(iris, aes(x = Species)) +
+  geom_bar(fill = "skyblue") +
+  ggtitle("Count of Each Species") +
+  xlab("Species") +
+  ylab("Count")
+
+# 2. Histogram of "Petal.Length"
+histogram_plot <- ggplot(iris, aes(x = Petal.Length)) +
+  geom_histogram(binwidth = 0.5, fill = "orange", color = "black") +
+  ggtitle("Distribution of Petal Length") +
+  xlab("Petal Length") +
+  ylab("Frequency")
+
+# 3. Scatter plot of "Petal.Length" vs "Petal.Width" with a smoothed conditional mean line
+scatter_plot <- ggplot(iris, aes(x = Petal.Length, y = Petal.Width)) +
+  geom_point(aes(color = Species)) +
+  geom_smooth(method = "loess") +
+  ggtitle("Petal Length vs Petal Width") +
+  xlab("Petal Length") +
+  ylab("Petal Width")
+
+# 4. Plot showing the relationship between "Sepal.Length", "Sepal.Width", and "Petal.Length"
+relation_plot <- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Petal.Length)) +
+  geom_point() +
+  scale_color_gradient(low = "blue", high = "red") +
+  ggtitle("Relationship between Sepal Length, Sepal Width, and Petal Length") +
+  xlab("Sepal Length") +
+  ylab("Sepal Width")
+
+# Modify the scatter plot (step 3) and save it
+modified_scatter_plot <- scatter_plot +
+  ggtitle("Modified: Petal Length vs Petal Width") +
+  xlab("Modified Petal Length") +
+  ylab("Modified Petal Width") +
+  theme_minimal()
+
+# Save the modified plot
+ggsave("/mnt/data/modified_scatter_plot.png", plot = modified_scatter_plot)
+
+# Display the plots
+print(species_plot)
+print(histogram_plot)
+print(scatter_plot)
+print(relation_plot)
+print(modified_scatter_plot)
+

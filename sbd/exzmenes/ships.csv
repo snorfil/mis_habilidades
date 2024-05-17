@@ -1,0 +1,1001 @@
+id,name,manufacturer,class,crew
+1,Ship_1,Sienar Fleet Systems,Starfighter,2439
+2,Ship_2,Incom Corporation,Transport,2395
+3,Ship_3,Sienar Fleet Systems,Capital Ship,6953
+4,Ship_4,Incom Corporation,Corvette,1439
+5,Ship_5,Incom Corporation,Transport,1752
+6,Ship_6,Corellian Engineering Corporation,Corvette,3137
+7,Ship_7,Corellian Engineering Corporation,Transport,6786
+8,Ship_8,Kuat Drive Yards,Starfighter,7701
+9,Ship_9,MandalMotors,Transport,1869
+10,Ship_10,Corellian Engineering Corporation,Transport,7239
+11,Ship_11,Kuat Drive Yards,Capital Ship,6262
+12,Ship_12,Sienar Fleet Systems,Transport,5420
+13,Ship_13,Kuat Drive Yards,Capital Ship,4095
+14,Ship_14,Corellian Engineering Corporation,Freighter,3704
+15,Ship_15,Incom Corporation,Capital Ship,4419
+16,Ship_16,Incom Corporation,Capital Ship,3461
+17,Ship_17,Incom Corporation,Corvette,7335
+18,Ship_18,Corellian Engineering Corporation,Starfighter,6476
+19,Ship_19,Kuat Drive Yards,Starfighter,6029
+20,Ship_20,Corellian Engineering Corporation,Starfighter,3343
+21,Ship_21,Corellian Engineering Corporation,Corvette,1121
+22,Ship_22,MandalMotors,Corvette,3038
+23,Ship_23,Sienar Fleet Systems,Capital Ship,8489
+24,Ship_24,Corellian Engineering Corporation,Starfighter,2141
+25,Ship_25,MandalMotors,Corvette,8795
+26,Ship_26,Incom Corporation,Starfighter,9302
+27,Ship_27,MandalMotors,Starfighter,6968
+28,Ship_28,Kuat Drive Yards,Transport,4527
+29,Ship_29,Kuat Drive Yards,Starfighter,7074
+30,Ship_30,Corellian Engineering Corporation,Corvette,8766
+31,Ship_31,Incom Corporation,Capital Ship,548
+32,Ship_32,Incom Corporation,Freighter,9760
+33,Ship_33,Kuat Drive Yards,Freighter,4221
+34,Ship_34,Corellian Engineering Corporation,Transport,6242
+35,Ship_35,Sienar Fleet Systems,Freighter,9275
+36,Ship_36,Sienar Fleet Systems,Freighter,9838
+37,Ship_37,Corellian Engineering Corporation,Corvette,2981
+38,Ship_38,Kuat Drive Yards,Freighter,4083
+39,Ship_39,Corellian Engineering Corporation,Freighter,2068
+40,Ship_40,MandalMotors,Capital Ship,1557
+41,Ship_41,MandalMotors,Capital Ship,1170
+42,Ship_42,Kuat Drive Yards,Capital Ship,6252
+43,Ship_43,Corellian Engineering Corporation,Corvette,3969
+44,Ship_44,Incom Corporation,Starfighter,4508
+45,Ship_45,Sienar Fleet Systems,Transport,2071
+46,Ship_46,Corellian Engineering Corporation,Capital Ship,7419
+47,Ship_47,MandalMotors,Starfighter,9540
+48,Ship_48,Incom Corporation,Transport,2262
+49,Ship_49,Incom Corporation,Corvette,7407
+50,Ship_50,Kuat Drive Yards,Freighter,9939
+51,Ship_51,Incom Corporation,Starfighter,9943
+52,Ship_52,MandalMotors,Transport,4947
+53,Ship_53,Sienar Fleet Systems,Corvette,4040
+54,Ship_54,MandalMotors,Starfighter,905
+55,Ship_55,Corellian Engineering Corporation,Capital Ship,162
+56,Ship_56,Corellian Engineering Corporation,Capital Ship,6175
+57,Ship_57,Kuat Drive Yards,Corvette,9197
+58,Ship_58,Corellian Engineering Corporation,Starfighter,8014
+59,Ship_59,Corellian Engineering Corporation,Capital Ship,1625
+60,Ship_60,MandalMotors,Transport,6934
+61,Ship_61,Incom Corporation,Transport,7299
+62,Ship_62,MandalMotors,Freighter,9195
+63,Ship_63,Corellian Engineering Corporation,Capital Ship,8063
+64,Ship_64,MandalMotors,Corvette,1236
+65,Ship_65,MandalMotors,Corvette,4843
+66,Ship_66,Incom Corporation,Corvette,1687
+67,Ship_67,MandalMotors,Transport,9886
+68,Ship_68,Kuat Drive Yards,Freighter,7110
+69,Ship_69,Sienar Fleet Systems,Starfighter,1655
+70,Ship_70,Incom Corporation,Capital Ship,9896
+71,Ship_71,Sienar Fleet Systems,Capital Ship,6518
+72,Ship_72,Sienar Fleet Systems,Freighter,8575
+73,Ship_73,Corellian Engineering Corporation,Capital Ship,4443
+74,Ship_74,Sienar Fleet Systems,Transport,134
+75,Ship_75,Incom Corporation,Freighter,1739
+76,Ship_76,Corellian Engineering Corporation,Freighter,546
+77,Ship_77,Kuat Drive Yards,Corvette,8317
+78,Ship_78,Sienar Fleet Systems,Capital Ship,5534
+79,Ship_79,MandalMotors,Freighter,4763
+80,Ship_80,MandalMotors,Freighter,6167
+81,Ship_81,Corellian Engineering Corporation,Transport,9184
+82,Ship_82,MandalMotors,Capital Ship,7570
+83,Ship_83,Corellian Engineering Corporation,Transport,4863
+84,Ship_84,Corellian Engineering Corporation,Capital Ship,1814
+85,Ship_85,Incom Corporation,Transport,2902
+86,Ship_86,Sienar Fleet Systems,Corvette,3223
+87,Ship_87,Corellian Engineering Corporation,Capital Ship,3894
+88,Ship_88,MandalMotors,Corvette,3455
+89,Ship_89,Corellian Engineering Corporation,Corvette,7545
+90,Ship_90,Sienar Fleet Systems,Capital Ship,5721
+91,Ship_91,Sienar Fleet Systems,Capital Ship,5277
+92,Ship_92,Corellian Engineering Corporation,Capital Ship,9628
+93,Ship_93,Kuat Drive Yards,Corvette,7012
+94,Ship_94,MandalMotors,Capital Ship,8014
+95,Ship_95,MandalMotors,Starfighter,1828
+96,Ship_96,MandalMotors,Transport,7208
+97,Ship_97,MandalMotors,Transport,279
+98,Ship_98,MandalMotors,Capital Ship,5674
+99,Ship_99,Sienar Fleet Systems,Corvette,4968
+100,Ship_100,Corellian Engineering Corporation,Transport,588
+101,Ship_101,Sienar Fleet Systems,Capital Ship,4500
+102,Ship_102,Corellian Engineering Corporation,Freighter,4020
+103,Ship_103,Corellian Engineering Corporation,Transport,279
+104,Ship_104,Corellian Engineering Corporation,Transport,751
+105,Ship_105,Corellian Engineering Corporation,Corvette,5109
+106,Ship_106,Sienar Fleet Systems,Corvette,2962
+107,Ship_107,Kuat Drive Yards,Corvette,3644
+108,Ship_108,Incom Corporation,Corvette,4063
+109,Ship_109,Incom Corporation,Corvette,2165
+110,Ship_110,Corellian Engineering Corporation,Capital Ship,5369
+111,Ship_111,Sienar Fleet Systems,Freighter,5903
+112,Ship_112,Sienar Fleet Systems,Freighter,9297
+113,Ship_113,Sienar Fleet Systems,Freighter,5400
+114,Ship_114,Corellian Engineering Corporation,Capital Ship,2922
+115,Ship_115,Sienar Fleet Systems,Freighter,1465
+116,Ship_116,MandalMotors,Transport,1602
+117,Ship_117,Incom Corporation,Transport,4676
+118,Ship_118,Sienar Fleet Systems,Freighter,6093
+119,Ship_119,Corellian Engineering Corporation,Starfighter,5962
+120,Ship_120,Kuat Drive Yards,Transport,5605
+121,Ship_121,Kuat Drive Yards,Freighter,5744
+122,Ship_122,MandalMotors,Capital Ship,5782
+123,Ship_123,Corellian Engineering Corporation,Corvette,7095
+124,Ship_124,MandalMotors,Freighter,2450
+125,Ship_125,Incom Corporation,Transport,660
+126,Ship_126,Kuat Drive Yards,Capital Ship,3363
+127,Ship_127,MandalMotors,Transport,5035
+128,Ship_128,Kuat Drive Yards,Starfighter,6967
+129,Ship_129,Kuat Drive Yards,Transport,4063
+130,Ship_130,Sienar Fleet Systems,Freighter,3957
+131,Ship_131,Incom Corporation,Corvette,2381
+132,Ship_132,Kuat Drive Yards,Capital Ship,3764
+133,Ship_133,Incom Corporation,Corvette,2965
+134,Ship_134,Sienar Fleet Systems,Freighter,4180
+135,Ship_135,Kuat Drive Yards,Transport,3678
+136,Ship_136,Incom Corporation,Capital Ship,1600
+137,Ship_137,Incom Corporation,Freighter,9692
+138,Ship_138,MandalMotors,Corvette,9970
+139,Ship_139,Incom Corporation,Freighter,4144
+140,Ship_140,Incom Corporation,Corvette,6779
+141,Ship_141,Kuat Drive Yards,Starfighter,1507
+142,Ship_142,Sienar Fleet Systems,Freighter,3507
+143,Ship_143,MandalMotors,Transport,6266
+144,Ship_144,Sienar Fleet Systems,Corvette,9662
+145,Ship_145,Corellian Engineering Corporation,Corvette,3135
+146,Ship_146,Kuat Drive Yards,Transport,7517
+147,Ship_147,Kuat Drive Yards,Starfighter,3456
+148,Ship_148,Sienar Fleet Systems,Transport,4671
+149,Ship_149,Corellian Engineering Corporation,Freighter,1870
+150,Ship_150,MandalMotors,Transport,8132
+151,Ship_151,Sienar Fleet Systems,Starfighter,1108
+152,Ship_152,Corellian Engineering Corporation,Transport,3880
+153,Ship_153,Sienar Fleet Systems,Corvette,891
+154,Ship_154,Incom Corporation,Freighter,3259
+155,Ship_155,MandalMotors,Freighter,6767
+156,Ship_156,Kuat Drive Yards,Capital Ship,7035
+157,Ship_157,Sienar Fleet Systems,Capital Ship,604
+158,Ship_158,Kuat Drive Yards,Freighter,3755
+159,Ship_159,Corellian Engineering Corporation,Corvette,7510
+160,Ship_160,Sienar Fleet Systems,Capital Ship,7113
+161,Ship_161,Incom Corporation,Corvette,1215
+162,Ship_162,Incom Corporation,Corvette,3961
+163,Ship_163,Incom Corporation,Capital Ship,9126
+164,Ship_164,Incom Corporation,Freighter,2288
+165,Ship_165,MandalMotors,Capital Ship,802
+166,Ship_166,Kuat Drive Yards,Transport,853
+167,Ship_167,Incom Corporation,Freighter,8937
+168,Ship_168,MandalMotors,Starfighter,887
+169,Ship_169,Incom Corporation,Capital Ship,1671
+170,Ship_170,Corellian Engineering Corporation,Freighter,4794
+171,Ship_171,Incom Corporation,Capital Ship,1063
+172,Ship_172,Corellian Engineering Corporation,Capital Ship,495
+173,Ship_173,Kuat Drive Yards,Freighter,2980
+174,Ship_174,MandalMotors,Transport,3927
+175,Ship_175,Sienar Fleet Systems,Corvette,3168
+176,Ship_176,Incom Corporation,Corvette,8428
+177,Ship_177,Incom Corporation,Starfighter,5093
+178,Ship_178,Incom Corporation,Starfighter,980
+179,Ship_179,Incom Corporation,Transport,1617
+180,Ship_180,Sienar Fleet Systems,Capital Ship,4975
+181,Ship_181,Sienar Fleet Systems,Capital Ship,1884
+182,Ship_182,Kuat Drive Yards,Capital Ship,8713
+183,Ship_183,MandalMotors,Freighter,5095
+184,Ship_184,MandalMotors,Capital Ship,256
+185,Ship_185,Incom Corporation,Starfighter,8395
+186,Ship_186,Sienar Fleet Systems,Corvette,5079
+187,Ship_187,Incom Corporation,Starfighter,4024
+188,Ship_188,Sienar Fleet Systems,Capital Ship,9936
+189,Ship_189,Sienar Fleet Systems,Freighter,6732
+190,Ship_190,Incom Corporation,Corvette,9877
+191,Ship_191,Kuat Drive Yards,Freighter,1157
+192,Ship_192,Kuat Drive Yards,Corvette,4255
+193,Ship_193,Corellian Engineering Corporation,Starfighter,1073
+194,Ship_194,Corellian Engineering Corporation,Freighter,8570
+195,Ship_195,Sienar Fleet Systems,Starfighter,8098
+196,Ship_196,MandalMotors,Capital Ship,2251
+197,Ship_197,Corellian Engineering Corporation,Capital Ship,2645
+198,Ship_198,MandalMotors,Capital Ship,406
+199,Ship_199,Corellian Engineering Corporation,Corvette,5400
+200,Ship_200,Kuat Drive Yards,Corvette,5896
+201,Ship_201,Incom Corporation,Capital Ship,6880
+202,Ship_202,Sienar Fleet Systems,Transport,2705
+203,Ship_203,MandalMotors,Starfighter,9043
+204,Ship_204,MandalMotors,Freighter,4784
+205,Ship_205,Corellian Engineering Corporation,Transport,9408
+206,Ship_206,Corellian Engineering Corporation,Capital Ship,9476
+207,Ship_207,MandalMotors,Freighter,7732
+208,Ship_208,Kuat Drive Yards,Capital Ship,5444
+209,Ship_209,Sienar Fleet Systems,Freighter,1089
+210,Ship_210,Sienar Fleet Systems,Corvette,8316
+211,Ship_211,Kuat Drive Yards,Freighter,9765
+212,Ship_212,Kuat Drive Yards,Corvette,6949
+213,Ship_213,MandalMotors,Corvette,7586
+214,Ship_214,Kuat Drive Yards,Capital Ship,942
+215,Ship_215,Sienar Fleet Systems,Corvette,4390
+216,Ship_216,Kuat Drive Yards,Transport,2175
+217,Ship_217,Incom Corporation,Corvette,4417
+218,Ship_218,Kuat Drive Yards,Freighter,1576
+219,Ship_219,Sienar Fleet Systems,Transport,4397
+220,Ship_220,Sienar Fleet Systems,Transport,3598
+221,Ship_221,Sienar Fleet Systems,Freighter,3900
+222,Ship_222,Corellian Engineering Corporation,Corvette,1363
+223,Ship_223,Sienar Fleet Systems,Transport,9698
+224,Ship_224,MandalMotors,Freighter,5152
+225,Ship_225,Incom Corporation,Corvette,478
+226,Ship_226,MandalMotors,Capital Ship,198
+227,Ship_227,MandalMotors,Capital Ship,5073
+228,Ship_228,MandalMotors,Starfighter,9277
+229,Ship_229,Kuat Drive Yards,Corvette,6068
+230,Ship_230,Incom Corporation,Starfighter,2019
+231,Ship_231,Sienar Fleet Systems,Transport,6533
+232,Ship_232,Sienar Fleet Systems,Freighter,5395
+233,Ship_233,MandalMotors,Freighter,2954
+234,Ship_234,MandalMotors,Corvette,5556
+235,Ship_235,Sienar Fleet Systems,Transport,3777
+236,Ship_236,Incom Corporation,Corvette,9344
+237,Ship_237,Corellian Engineering Corporation,Corvette,659
+238,Ship_238,MandalMotors,Freighter,8365
+239,Ship_239,Corellian Engineering Corporation,Freighter,2192
+240,Ship_240,MandalMotors,Corvette,7483
+241,Ship_241,Incom Corporation,Transport,3713
+242,Ship_242,Kuat Drive Yards,Corvette,3572
+243,Ship_243,Kuat Drive Yards,Transport,5609
+244,Ship_244,Incom Corporation,Freighter,9428
+245,Ship_245,Corellian Engineering Corporation,Transport,7690
+246,Ship_246,Sienar Fleet Systems,Capital Ship,8376
+247,Ship_247,Kuat Drive Yards,Capital Ship,9105
+248,Ship_248,MandalMotors,Transport,1696
+249,Ship_249,Sienar Fleet Systems,Capital Ship,4966
+250,Ship_250,Sienar Fleet Systems,Capital Ship,8954
+251,Ship_251,Sienar Fleet Systems,Capital Ship,7608
+252,Ship_252,Sienar Fleet Systems,Capital Ship,3368
+253,Ship_253,Kuat Drive Yards,Corvette,2230
+254,Ship_254,Kuat Drive Yards,Transport,8206
+255,Ship_255,Sienar Fleet Systems,Transport,2179
+256,Ship_256,Corellian Engineering Corporation,Transport,65
+257,Ship_257,Sienar Fleet Systems,Starfighter,78
+258,Ship_258,Kuat Drive Yards,Corvette,6265
+259,Ship_259,Corellian Engineering Corporation,Corvette,1314
+260,Ship_260,Corellian Engineering Corporation,Capital Ship,304
+261,Ship_261,Sienar Fleet Systems,Freighter,68
+262,Ship_262,MandalMotors,Starfighter,8301
+263,Ship_263,Corellian Engineering Corporation,Starfighter,7834
+264,Ship_264,Incom Corporation,Capital Ship,5267
+265,Ship_265,Corellian Engineering Corporation,Capital Ship,5536
+266,Ship_266,Corellian Engineering Corporation,Freighter,7622
+267,Ship_267,Incom Corporation,Freighter,3985
+268,Ship_268,Kuat Drive Yards,Capital Ship,6041
+269,Ship_269,Incom Corporation,Transport,7933
+270,Ship_270,Sienar Fleet Systems,Corvette,7901
+271,Ship_271,Incom Corporation,Transport,1480
+272,Ship_272,MandalMotors,Transport,3066
+273,Ship_273,MandalMotors,Capital Ship,1192
+274,Ship_274,Incom Corporation,Corvette,6983
+275,Ship_275,MandalMotors,Corvette,334
+276,Ship_276,Kuat Drive Yards,Transport,2736
+277,Ship_277,Kuat Drive Yards,Starfighter,3176
+278,Ship_278,Sienar Fleet Systems,Transport,516
+279,Ship_279,MandalMotors,Starfighter,3834
+280,Ship_280,Incom Corporation,Corvette,7097
+281,Ship_281,Incom Corporation,Freighter,9282
+282,Ship_282,Sienar Fleet Systems,Starfighter,6648
+283,Ship_283,Corellian Engineering Corporation,Starfighter,1642
+284,Ship_284,Kuat Drive Yards,Capital Ship,8573
+285,Ship_285,Sienar Fleet Systems,Transport,870
+286,Ship_286,Corellian Engineering Corporation,Transport,6032
+287,Ship_287,Corellian Engineering Corporation,Transport,204
+288,Ship_288,Corellian Engineering Corporation,Freighter,747
+289,Ship_289,Kuat Drive Yards,Freighter,9836
+290,Ship_290,Sienar Fleet Systems,Transport,1953
+291,Ship_291,Corellian Engineering Corporation,Starfighter,784
+292,Ship_292,Sienar Fleet Systems,Corvette,8166
+293,Ship_293,Kuat Drive Yards,Freighter,5176
+294,Ship_294,Incom Corporation,Transport,1210
+295,Ship_295,Incom Corporation,Corvette,8922
+296,Ship_296,MandalMotors,Capital Ship,2147
+297,Ship_297,Kuat Drive Yards,Capital Ship,8301
+298,Ship_298,MandalMotors,Corvette,3838
+299,Ship_299,Sienar Fleet Systems,Corvette,1637
+300,Ship_300,Corellian Engineering Corporation,Transport,9672
+301,Ship_301,Sienar Fleet Systems,Transport,790
+302,Ship_302,Incom Corporation,Transport,869
+303,Ship_303,Kuat Drive Yards,Starfighter,9652
+304,Ship_304,Corellian Engineering Corporation,Freighter,3780
+305,Ship_305,Incom Corporation,Capital Ship,5627
+306,Ship_306,Corellian Engineering Corporation,Transport,7373
+307,Ship_307,MandalMotors,Freighter,4247
+308,Ship_308,Sienar Fleet Systems,Starfighter,9777
+309,Ship_309,MandalMotors,Capital Ship,3144
+310,Ship_310,Corellian Engineering Corporation,Capital Ship,2375
+311,Ship_311,Corellian Engineering Corporation,Capital Ship,9604
+312,Ship_312,Corellian Engineering Corporation,Transport,6166
+313,Ship_313,Kuat Drive Yards,Corvette,4776
+314,Ship_314,MandalMotors,Transport,1297
+315,Ship_315,Incom Corporation,Transport,5246
+316,Ship_316,Incom Corporation,Capital Ship,2230
+317,Ship_317,Sienar Fleet Systems,Corvette,1419
+318,Ship_318,Incom Corporation,Corvette,667
+319,Ship_319,Kuat Drive Yards,Freighter,3673
+320,Ship_320,Sienar Fleet Systems,Transport,1621
+321,Ship_321,MandalMotors,Capital Ship,9068
+322,Ship_322,MandalMotors,Capital Ship,9838
+323,Ship_323,MandalMotors,Freighter,8019
+324,Ship_324,MandalMotors,Freighter,5078
+325,Ship_325,Incom Corporation,Corvette,9426
+326,Ship_326,Corellian Engineering Corporation,Capital Ship,360
+327,Ship_327,Sienar Fleet Systems,Starfighter,8087
+328,Ship_328,MandalMotors,Freighter,5934
+329,Ship_329,Corellian Engineering Corporation,Freighter,3994
+330,Ship_330,Kuat Drive Yards,Capital Ship,7187
+331,Ship_331,Incom Corporation,Freighter,3159
+332,Ship_332,Kuat Drive Yards,Transport,1404
+333,Ship_333,Kuat Drive Yards,Transport,1261
+334,Ship_334,Incom Corporation,Freighter,5237
+335,Ship_335,Corellian Engineering Corporation,Corvette,4136
+336,Ship_336,Corellian Engineering Corporation,Starfighter,9577
+337,Ship_337,Incom Corporation,Freighter,3956
+338,Ship_338,Sienar Fleet Systems,Transport,3969
+339,Ship_339,Kuat Drive Yards,Corvette,9
+340,Ship_340,Corellian Engineering Corporation,Starfighter,6491
+341,Ship_341,Sienar Fleet Systems,Capital Ship,8503
+342,Ship_342,Sienar Fleet Systems,Freighter,4442
+343,Ship_343,Incom Corporation,Corvette,6391
+344,Ship_344,Sienar Fleet Systems,Corvette,7942
+345,Ship_345,Sienar Fleet Systems,Transport,5549
+346,Ship_346,Sienar Fleet Systems,Starfighter,721
+347,Ship_347,Corellian Engineering Corporation,Starfighter,4956
+348,Ship_348,Corellian Engineering Corporation,Corvette,4648
+349,Ship_349,Incom Corporation,Freighter,389
+350,Ship_350,Sienar Fleet Systems,Starfighter,9845
+351,Ship_351,Incom Corporation,Corvette,4571
+352,Ship_352,Incom Corporation,Corvette,7448
+353,Ship_353,Corellian Engineering Corporation,Corvette,2428
+354,Ship_354,Sienar Fleet Systems,Starfighter,3855
+355,Ship_355,MandalMotors,Starfighter,8072
+356,Ship_356,MandalMotors,Starfighter,9591
+357,Ship_357,Kuat Drive Yards,Starfighter,2060
+358,Ship_358,MandalMotors,Capital Ship,6573
+359,Ship_359,Corellian Engineering Corporation,Starfighter,8874
+360,Ship_360,Kuat Drive Yards,Starfighter,9679
+361,Ship_361,Corellian Engineering Corporation,Transport,5480
+362,Ship_362,MandalMotors,Transport,4567
+363,Ship_363,MandalMotors,Freighter,2529
+364,Ship_364,Corellian Engineering Corporation,Transport,7707
+365,Ship_365,Incom Corporation,Freighter,5619
+366,Ship_366,Kuat Drive Yards,Corvette,1280
+367,Ship_367,Sienar Fleet Systems,Starfighter,3541
+368,Ship_368,Incom Corporation,Transport,5540
+369,Ship_369,Corellian Engineering Corporation,Capital Ship,8586
+370,Ship_370,Corellian Engineering Corporation,Transport,3258
+371,Ship_371,Kuat Drive Yards,Freighter,8895
+372,Ship_372,Incom Corporation,Freighter,3045
+373,Ship_373,MandalMotors,Transport,1967
+374,Ship_374,Corellian Engineering Corporation,Capital Ship,497
+375,Ship_375,Sienar Fleet Systems,Corvette,3610
+376,Ship_376,Corellian Engineering Corporation,Transport,1569
+377,Ship_377,Incom Corporation,Freighter,7561
+378,Ship_378,Incom Corporation,Starfighter,1125
+379,Ship_379,Incom Corporation,Transport,8276
+380,Ship_380,Corellian Engineering Corporation,Freighter,3490
+381,Ship_381,Sienar Fleet Systems,Transport,7107
+382,Ship_382,Sienar Fleet Systems,Transport,9262
+383,Ship_383,Kuat Drive Yards,Starfighter,8995
+384,Ship_384,Sienar Fleet Systems,Transport,931
+385,Ship_385,Corellian Engineering Corporation,Transport,1700
+386,Ship_386,Kuat Drive Yards,Capital Ship,7275
+387,Ship_387,Kuat Drive Yards,Corvette,2310
+388,Ship_388,Corellian Engineering Corporation,Transport,8850
+389,Ship_389,Corellian Engineering Corporation,Transport,9182
+390,Ship_390,Kuat Drive Yards,Transport,8307
+391,Ship_391,Corellian Engineering Corporation,Starfighter,6622
+392,Ship_392,Corellian Engineering Corporation,Freighter,4493
+393,Ship_393,Sienar Fleet Systems,Freighter,6994
+394,Ship_394,Incom Corporation,Corvette,700
+395,Ship_395,MandalMotors,Corvette,8761
+396,Ship_396,Corellian Engineering Corporation,Corvette,7669
+397,Ship_397,Incom Corporation,Starfighter,7269
+398,Ship_398,Sienar Fleet Systems,Freighter,8344
+399,Ship_399,Kuat Drive Yards,Starfighter,5181
+400,Ship_400,Corellian Engineering Corporation,Starfighter,7553
+401,Ship_401,Sienar Fleet Systems,Transport,913
+402,Ship_402,Incom Corporation,Corvette,2951
+403,Ship_403,Sienar Fleet Systems,Corvette,5878
+404,Ship_404,Corellian Engineering Corporation,Capital Ship,5875
+405,Ship_405,Kuat Drive Yards,Transport,5911
+406,Ship_406,Corellian Engineering Corporation,Capital Ship,5437
+407,Ship_407,Kuat Drive Yards,Corvette,8981
+408,Ship_408,MandalMotors,Freighter,843
+409,Ship_409,Kuat Drive Yards,Capital Ship,7794
+410,Ship_410,Kuat Drive Yards,Capital Ship,2623
+411,Ship_411,Sienar Fleet Systems,Capital Ship,8342
+412,Ship_412,Sienar Fleet Systems,Freighter,7676
+413,Ship_413,MandalMotors,Freighter,7228
+414,Ship_414,MandalMotors,Transport,9946
+415,Ship_415,Incom Corporation,Transport,1858
+416,Ship_416,Sienar Fleet Systems,Corvette,4151
+417,Ship_417,MandalMotors,Capital Ship,5840
+418,Ship_418,Kuat Drive Yards,Capital Ship,5877
+419,Ship_419,Corellian Engineering Corporation,Starfighter,674
+420,Ship_420,Incom Corporation,Corvette,9779
+421,Ship_421,Incom Corporation,Capital Ship,1406
+422,Ship_422,Corellian Engineering Corporation,Transport,536
+423,Ship_423,Incom Corporation,Freighter,6533
+424,Ship_424,Sienar Fleet Systems,Transport,8806
+425,Ship_425,Sienar Fleet Systems,Freighter,7477
+426,Ship_426,Sienar Fleet Systems,Transport,7505
+427,Ship_427,Kuat Drive Yards,Freighter,8590
+428,Ship_428,Incom Corporation,Corvette,5544
+429,Ship_429,Sienar Fleet Systems,Corvette,3132
+430,Ship_430,Corellian Engineering Corporation,Transport,5200
+431,Ship_431,Sienar Fleet Systems,Starfighter,8047
+432,Ship_432,MandalMotors,Corvette,3651
+433,Ship_433,Sienar Fleet Systems,Capital Ship,3694
+434,Ship_434,Corellian Engineering Corporation,Starfighter,5961
+435,Ship_435,Sienar Fleet Systems,Transport,7653
+436,Ship_436,Incom Corporation,Freighter,784
+437,Ship_437,Sienar Fleet Systems,Starfighter,8932
+438,Ship_438,Kuat Drive Yards,Corvette,6220
+439,Ship_439,Corellian Engineering Corporation,Corvette,2688
+440,Ship_440,Kuat Drive Yards,Transport,6928
+441,Ship_441,Incom Corporation,Corvette,9688
+442,Ship_442,Kuat Drive Yards,Corvette,1674
+443,Ship_443,Sienar Fleet Systems,Starfighter,5428
+444,Ship_444,Kuat Drive Yards,Transport,1234
+445,Ship_445,MandalMotors,Starfighter,6782
+446,Ship_446,Incom Corporation,Starfighter,607
+447,Ship_447,Sienar Fleet Systems,Corvette,1505
+448,Ship_448,Kuat Drive Yards,Freighter,6855
+449,Ship_449,Kuat Drive Yards,Starfighter,1629
+450,Ship_450,Kuat Drive Yards,Corvette,8685
+451,Ship_451,Kuat Drive Yards,Corvette,3486
+452,Ship_452,Sienar Fleet Systems,Starfighter,7099
+453,Ship_453,Sienar Fleet Systems,Starfighter,3121
+454,Ship_454,Incom Corporation,Corvette,9555
+455,Ship_455,Corellian Engineering Corporation,Capital Ship,1493
+456,Ship_456,Corellian Engineering Corporation,Freighter,7837
+457,Ship_457,Corellian Engineering Corporation,Transport,4453
+458,Ship_458,Kuat Drive Yards,Corvette,6248
+459,Ship_459,Incom Corporation,Transport,1922
+460,Ship_460,Corellian Engineering Corporation,Corvette,2907
+461,Ship_461,Kuat Drive Yards,Capital Ship,2527
+462,Ship_462,MandalMotors,Capital Ship,60
+463,Ship_463,Sienar Fleet Systems,Capital Ship,9546
+464,Ship_464,Corellian Engineering Corporation,Transport,7793
+465,Ship_465,MandalMotors,Transport,2482
+466,Ship_466,Corellian Engineering Corporation,Freighter,1016
+467,Ship_467,Corellian Engineering Corporation,Freighter,8789
+468,Ship_468,Incom Corporation,Starfighter,8434
+469,Ship_469,Incom Corporation,Starfighter,1067
+470,Ship_470,Incom Corporation,Transport,7027
+471,Ship_471,Sienar Fleet Systems,Corvette,985
+472,Ship_472,Incom Corporation,Freighter,3848
+473,Ship_473,Corellian Engineering Corporation,Capital Ship,5986
+474,Ship_474,Corellian Engineering Corporation,Capital Ship,5863
+475,Ship_475,Sienar Fleet Systems,Transport,6112
+476,Ship_476,Kuat Drive Yards,Corvette,8136
+477,Ship_477,Kuat Drive Yards,Freighter,2658
+478,Ship_478,Corellian Engineering Corporation,Transport,4465
+479,Ship_479,Sienar Fleet Systems,Freighter,5927
+480,Ship_480,Corellian Engineering Corporation,Transport,6773
+481,Ship_481,Kuat Drive Yards,Capital Ship,9194
+482,Ship_482,Incom Corporation,Transport,4183
+483,Ship_483,Kuat Drive Yards,Freighter,4374
+484,Ship_484,Sienar Fleet Systems,Transport,7383
+485,Ship_485,Incom Corporation,Capital Ship,3458
+486,Ship_486,Sienar Fleet Systems,Corvette,72
+487,Ship_487,Corellian Engineering Corporation,Transport,1363
+488,Ship_488,MandalMotors,Transport,5722
+489,Ship_489,Sienar Fleet Systems,Corvette,8510
+490,Ship_490,Kuat Drive Yards,Capital Ship,2069
+491,Ship_491,Kuat Drive Yards,Starfighter,9749
+492,Ship_492,Incom Corporation,Transport,3927
+493,Ship_493,Kuat Drive Yards,Corvette,2061
+494,Ship_494,Incom Corporation,Capital Ship,8948
+495,Ship_495,Incom Corporation,Capital Ship,569
+496,Ship_496,Sienar Fleet Systems,Transport,8568
+497,Ship_497,Kuat Drive Yards,Corvette,1927
+498,Ship_498,Incom Corporation,Capital Ship,2496
+499,Ship_499,Incom Corporation,Transport,7944
+500,Ship_500,Corellian Engineering Corporation,Starfighter,772
+501,Ship_501,Sienar Fleet Systems,Transport,1704
+502,Ship_502,Incom Corporation,Corvette,7899
+503,Ship_503,Incom Corporation,Capital Ship,6752
+504,Ship_504,Corellian Engineering Corporation,Transport,8076
+505,Ship_505,Incom Corporation,Capital Ship,4633
+506,Ship_506,Incom Corporation,Transport,4017
+507,Ship_507,Kuat Drive Yards,Corvette,7033
+508,Ship_508,Sienar Fleet Systems,Transport,4979
+509,Ship_509,Incom Corporation,Capital Ship,6148
+510,Ship_510,Sienar Fleet Systems,Transport,1703
+511,Ship_511,Corellian Engineering Corporation,Capital Ship,3818
+512,Ship_512,Kuat Drive Yards,Starfighter,9060
+513,Ship_513,Corellian Engineering Corporation,Corvette,3605
+514,Ship_514,MandalMotors,Corvette,6810
+515,Ship_515,Corellian Engineering Corporation,Freighter,7026
+516,Ship_516,MandalMotors,Freighter,3706
+517,Ship_517,MandalMotors,Capital Ship,8491
+518,Ship_518,Sienar Fleet Systems,Corvette,2607
+519,Ship_519,Kuat Drive Yards,Corvette,9024
+520,Ship_520,Kuat Drive Yards,Capital Ship,9185
+521,Ship_521,Sienar Fleet Systems,Starfighter,8909
+522,Ship_522,Sienar Fleet Systems,Transport,1512
+523,Ship_523,MandalMotors,Freighter,5038
+524,Ship_524,Incom Corporation,Transport,1793
+525,Ship_525,Kuat Drive Yards,Capital Ship,1027
+526,Ship_526,MandalMotors,Corvette,4599
+527,Ship_527,Kuat Drive Yards,Freighter,4521
+528,Ship_528,Corellian Engineering Corporation,Transport,6705
+529,Ship_529,Sienar Fleet Systems,Starfighter,5618
+530,Ship_530,MandalMotors,Capital Ship,7795
+531,Ship_531,Incom Corporation,Transport,9016
+532,Ship_532,Sienar Fleet Systems,Starfighter,681
+533,Ship_533,Corellian Engineering Corporation,Transport,4378
+534,Ship_534,Kuat Drive Yards,Transport,8983
+535,Ship_535,Sienar Fleet Systems,Transport,8727
+536,Ship_536,Corellian Engineering Corporation,Transport,69
+537,Ship_537,MandalMotors,Transport,2998
+538,Ship_538,MandalMotors,Transport,8054
+539,Ship_539,Corellian Engineering Corporation,Capital Ship,3439
+540,Ship_540,Sienar Fleet Systems,Freighter,5183
+541,Ship_541,Corellian Engineering Corporation,Transport,5290
+542,Ship_542,MandalMotors,Transport,6656
+543,Ship_543,Incom Corporation,Corvette,8577
+544,Ship_544,Incom Corporation,Transport,4992
+545,Ship_545,Incom Corporation,Starfighter,2852
+546,Ship_546,Corellian Engineering Corporation,Corvette,7645
+547,Ship_547,Kuat Drive Yards,Corvette,3367
+548,Ship_548,Incom Corporation,Capital Ship,5632
+549,Ship_549,Sienar Fleet Systems,Freighter,2864
+550,Ship_550,Incom Corporation,Capital Ship,2635
+551,Ship_551,MandalMotors,Starfighter,4767
+552,Ship_552,Incom Corporation,Corvette,2923
+553,Ship_553,Sienar Fleet Systems,Freighter,4578
+554,Ship_554,Kuat Drive Yards,Capital Ship,951
+555,Ship_555,Sienar Fleet Systems,Freighter,4197
+556,Ship_556,Kuat Drive Yards,Starfighter,795
+557,Ship_557,MandalMotors,Capital Ship,2570
+558,Ship_558,Incom Corporation,Corvette,6893
+559,Ship_559,Corellian Engineering Corporation,Starfighter,7944
+560,Ship_560,Kuat Drive Yards,Capital Ship,9562
+561,Ship_561,Corellian Engineering Corporation,Freighter,6127
+562,Ship_562,MandalMotors,Transport,7588
+563,Ship_563,Incom Corporation,Transport,9601
+564,Ship_564,Incom Corporation,Starfighter,1139
+565,Ship_565,Sienar Fleet Systems,Corvette,5501
+566,Ship_566,Corellian Engineering Corporation,Freighter,138
+567,Ship_567,Corellian Engineering Corporation,Freighter,799
+568,Ship_568,Corellian Engineering Corporation,Corvette,5298
+569,Ship_569,MandalMotors,Corvette,2362
+570,Ship_570,Kuat Drive Yards,Freighter,9713
+571,Ship_571,Kuat Drive Yards,Corvette,979
+572,Ship_572,MandalMotors,Starfighter,2192
+573,Ship_573,Corellian Engineering Corporation,Corvette,7535
+574,Ship_574,MandalMotors,Freighter,167
+575,Ship_575,Kuat Drive Yards,Freighter,6602
+576,Ship_576,Incom Corporation,Capital Ship,197
+577,Ship_577,Kuat Drive Yards,Starfighter,4876
+578,Ship_578,Incom Corporation,Transport,5747
+579,Ship_579,Corellian Engineering Corporation,Starfighter,5947
+580,Ship_580,Sienar Fleet Systems,Freighter,2240
+581,Ship_581,Incom Corporation,Corvette,8664
+582,Ship_582,MandalMotors,Freighter,1590
+583,Ship_583,MandalMotors,Capital Ship,9745
+584,Ship_584,MandalMotors,Corvette,2914
+585,Ship_585,Incom Corporation,Freighter,9656
+586,Ship_586,Corellian Engineering Corporation,Freighter,1168
+587,Ship_587,Corellian Engineering Corporation,Corvette,7374
+588,Ship_588,Incom Corporation,Corvette,8311
+589,Ship_589,Sienar Fleet Systems,Corvette,3259
+590,Ship_590,Corellian Engineering Corporation,Capital Ship,6184
+591,Ship_591,Sienar Fleet Systems,Starfighter,2667
+592,Ship_592,Kuat Drive Yards,Freighter,3112
+593,Ship_593,Incom Corporation,Capital Ship,4707
+594,Ship_594,Corellian Engineering Corporation,Corvette,6949
+595,Ship_595,Incom Corporation,Starfighter,5047
+596,Ship_596,Sienar Fleet Systems,Corvette,4299
+597,Ship_597,Kuat Drive Yards,Corvette,1198
+598,Ship_598,Sienar Fleet Systems,Freighter,2996
+599,Ship_599,Corellian Engineering Corporation,Capital Ship,1840
+600,Ship_600,Incom Corporation,Freighter,1908
+601,Ship_601,Corellian Engineering Corporation,Corvette,6545
+602,Ship_602,Incom Corporation,Capital Ship,5950
+603,Ship_603,Sienar Fleet Systems,Capital Ship,3819
+604,Ship_604,MandalMotors,Transport,1274
+605,Ship_605,Kuat Drive Yards,Freighter,9041
+606,Ship_606,Sienar Fleet Systems,Starfighter,1611
+607,Ship_607,Kuat Drive Yards,Capital Ship,1374
+608,Ship_608,Incom Corporation,Freighter,7363
+609,Ship_609,Corellian Engineering Corporation,Capital Ship,596
+610,Ship_610,Incom Corporation,Corvette,8082
+611,Ship_611,Sienar Fleet Systems,Capital Ship,4511
+612,Ship_612,Corellian Engineering Corporation,Corvette,9529
+613,Ship_613,Incom Corporation,Capital Ship,9391
+614,Ship_614,Sienar Fleet Systems,Starfighter,7114
+615,Ship_615,MandalMotors,Capital Ship,7429
+616,Ship_616,Incom Corporation,Freighter,8577
+617,Ship_617,Kuat Drive Yards,Corvette,9069
+618,Ship_618,MandalMotors,Freighter,2886
+619,Ship_619,Corellian Engineering Corporation,Corvette,2353
+620,Ship_620,Corellian Engineering Corporation,Starfighter,3918
+621,Ship_621,MandalMotors,Freighter,607
+622,Ship_622,Kuat Drive Yards,Freighter,8460
+623,Ship_623,MandalMotors,Transport,8558
+624,Ship_624,Sienar Fleet Systems,Capital Ship,6649
+625,Ship_625,MandalMotors,Transport,492
+626,Ship_626,Incom Corporation,Corvette,414
+627,Ship_627,Corellian Engineering Corporation,Freighter,4238
+628,Ship_628,Kuat Drive Yards,Freighter,2434
+629,Ship_629,MandalMotors,Corvette,6221
+630,Ship_630,Incom Corporation,Starfighter,2530
+631,Ship_631,Kuat Drive Yards,Transport,5326
+632,Ship_632,Kuat Drive Yards,Freighter,2782
+633,Ship_633,Kuat Drive Yards,Transport,6033
+634,Ship_634,Kuat Drive Yards,Starfighter,9999
+635,Ship_635,Kuat Drive Yards,Transport,2854
+636,Ship_636,Incom Corporation,Freighter,8133
+637,Ship_637,Sienar Fleet Systems,Corvette,170
+638,Ship_638,Kuat Drive Yards,Transport,5245
+639,Ship_639,Kuat Drive Yards,Transport,2737
+640,Ship_640,Incom Corporation,Freighter,9338
+641,Ship_641,Incom Corporation,Transport,5747
+642,Ship_642,Kuat Drive Yards,Starfighter,7000
+643,Ship_643,Incom Corporation,Starfighter,5949
+644,Ship_644,Kuat Drive Yards,Freighter,4254
+645,Ship_645,Sienar Fleet Systems,Freighter,8252
+646,Ship_646,Corellian Engineering Corporation,Transport,7581
+647,Ship_647,Incom Corporation,Freighter,5170
+648,Ship_648,Kuat Drive Yards,Freighter,8279
+649,Ship_649,Incom Corporation,Capital Ship,3218
+650,Ship_650,MandalMotors,Freighter,2309
+651,Ship_651,Sienar Fleet Systems,Freighter,2341
+652,Ship_652,Incom Corporation,Transport,3020
+653,Ship_653,Sienar Fleet Systems,Transport,1096
+654,Ship_654,Corellian Engineering Corporation,Corvette,3908
+655,Ship_655,Corellian Engineering Corporation,Transport,5454
+656,Ship_656,Sienar Fleet Systems,Freighter,4967
+657,Ship_657,Incom Corporation,Starfighter,7157
+658,Ship_658,Incom Corporation,Corvette,8488
+659,Ship_659,Incom Corporation,Freighter,9004
+660,Ship_660,Corellian Engineering Corporation,Corvette,4441
+661,Ship_661,Sienar Fleet Systems,Corvette,3823
+662,Ship_662,Sienar Fleet Systems,Corvette,3842
+663,Ship_663,Kuat Drive Yards,Corvette,4161
+664,Ship_664,Sienar Fleet Systems,Capital Ship,9698
+665,Ship_665,Kuat Drive Yards,Transport,2706
+666,Ship_666,Sienar Fleet Systems,Corvette,1604
+667,Ship_667,Corellian Engineering Corporation,Corvette,8817
+668,Ship_668,Sienar Fleet Systems,Freighter,1576
+669,Ship_669,Incom Corporation,Capital Ship,5938
+670,Ship_670,Sienar Fleet Systems,Transport,9652
+671,Ship_671,Sienar Fleet Systems,Corvette,5958
+672,Ship_672,Incom Corporation,Freighter,8613
+673,Ship_673,Incom Corporation,Freighter,9562
+674,Ship_674,Kuat Drive Yards,Starfighter,6431
+675,Ship_675,Kuat Drive Yards,Capital Ship,1742
+676,Ship_676,Corellian Engineering Corporation,Transport,1733
+677,Ship_677,Sienar Fleet Systems,Transport,3247
+678,Ship_678,Incom Corporation,Transport,8551
+679,Ship_679,Sienar Fleet Systems,Starfighter,7091
+680,Ship_680,Corellian Engineering Corporation,Starfighter,6844
+681,Ship_681,Sienar Fleet Systems,Transport,5564
+682,Ship_682,Corellian Engineering Corporation,Capital Ship,5382
+683,Ship_683,Incom Corporation,Corvette,7910
+684,Ship_684,Corellian Engineering Corporation,Freighter,7411
+685,Ship_685,Corellian Engineering Corporation,Transport,5809
+686,Ship_686,Corellian Engineering Corporation,Capital Ship,7311
+687,Ship_687,Corellian Engineering Corporation,Corvette,3636
+688,Ship_688,Corellian Engineering Corporation,Starfighter,6089
+689,Ship_689,Sienar Fleet Systems,Freighter,7373
+690,Ship_690,Corellian Engineering Corporation,Corvette,8727
+691,Ship_691,MandalMotors,Capital Ship,1833
+692,Ship_692,Sienar Fleet Systems,Transport,9162
+693,Ship_693,Kuat Drive Yards,Capital Ship,2509
+694,Ship_694,MandalMotors,Starfighter,6627
+695,Ship_695,MandalMotors,Corvette,4348
+696,Ship_696,MandalMotors,Corvette,7706
+697,Ship_697,MandalMotors,Capital Ship,8884
+698,Ship_698,MandalMotors,Starfighter,8153
+699,Ship_699,Kuat Drive Yards,Starfighter,813
+700,Ship_700,MandalMotors,Corvette,4786
+701,Ship_701,Corellian Engineering Corporation,Corvette,4583
+702,Ship_702,MandalMotors,Starfighter,9228
+703,Ship_703,Kuat Drive Yards,Capital Ship,4529
+704,Ship_704,Kuat Drive Yards,Freighter,6903
+705,Ship_705,MandalMotors,Corvette,5535
+706,Ship_706,Kuat Drive Yards,Corvette,5561
+707,Ship_707,Kuat Drive Yards,Freighter,6985
+708,Ship_708,MandalMotors,Corvette,5839
+709,Ship_709,Kuat Drive Yards,Freighter,7726
+710,Ship_710,Sienar Fleet Systems,Freighter,5224
+711,Ship_711,Corellian Engineering Corporation,Freighter,6862
+712,Ship_712,MandalMotors,Capital Ship,2219
+713,Ship_713,Sienar Fleet Systems,Transport,3042
+714,Ship_714,Incom Corporation,Corvette,3944
+715,Ship_715,Kuat Drive Yards,Corvette,3047
+716,Ship_716,Kuat Drive Yards,Transport,1779
+717,Ship_717,Kuat Drive Yards,Freighter,4067
+718,Ship_718,MandalMotors,Corvette,8777
+719,Ship_719,MandalMotors,Freighter,6620
+720,Ship_720,Kuat Drive Yards,Freighter,9041
+721,Ship_721,Corellian Engineering Corporation,Transport,6647
+722,Ship_722,Corellian Engineering Corporation,Capital Ship,3199
+723,Ship_723,Incom Corporation,Starfighter,8371
+724,Ship_724,Incom Corporation,Starfighter,9266
+725,Ship_725,Sienar Fleet Systems,Freighter,9550
+726,Ship_726,Corellian Engineering Corporation,Transport,9080
+727,Ship_727,Kuat Drive Yards,Capital Ship,5004
+728,Ship_728,Kuat Drive Yards,Corvette,2845
+729,Ship_729,Kuat Drive Yards,Transport,867
+730,Ship_730,Incom Corporation,Freighter,6758
+731,Ship_731,Corellian Engineering Corporation,Transport,4117
+732,Ship_732,Sienar Fleet Systems,Corvette,2868
+733,Ship_733,MandalMotors,Transport,1901
+734,Ship_734,MandalMotors,Starfighter,2888
+735,Ship_735,Sienar Fleet Systems,Transport,1130
+736,Ship_736,Corellian Engineering Corporation,Transport,5707
+737,Ship_737,Sienar Fleet Systems,Freighter,860
+738,Ship_738,Sienar Fleet Systems,Transport,3164
+739,Ship_739,MandalMotors,Freighter,7485
+740,Ship_740,Corellian Engineering Corporation,Starfighter,9508
+741,Ship_741,MandalMotors,Transport,5943
+742,Ship_742,MandalMotors,Capital Ship,1979
+743,Ship_743,Incom Corporation,Corvette,8325
+744,Ship_744,Sienar Fleet Systems,Capital Ship,1875
+745,Ship_745,Kuat Drive Yards,Capital Ship,9544
+746,Ship_746,Corellian Engineering Corporation,Transport,5824
+747,Ship_747,Kuat Drive Yards,Capital Ship,3090
+748,Ship_748,Corellian Engineering Corporation,Corvette,6045
+749,Ship_749,Sienar Fleet Systems,Starfighter,6016
+750,Ship_750,Sienar Fleet Systems,Freighter,2828
+751,Ship_751,Kuat Drive Yards,Freighter,3961
+752,Ship_752,Incom Corporation,Freighter,5309
+753,Ship_753,MandalMotors,Corvette,1783
+754,Ship_754,Corellian Engineering Corporation,Corvette,259
+755,Ship_755,Incom Corporation,Freighter,5028
+756,Ship_756,Corellian Engineering Corporation,Freighter,5380
+757,Ship_757,Incom Corporation,Transport,8493
+758,Ship_758,Sienar Fleet Systems,Capital Ship,1780
+759,Ship_759,Sienar Fleet Systems,Capital Ship,6038
+760,Ship_760,Kuat Drive Yards,Capital Ship,4477
+761,Ship_761,Sienar Fleet Systems,Capital Ship,1221
+762,Ship_762,Corellian Engineering Corporation,Capital Ship,2282
+763,Ship_763,MandalMotors,Freighter,6745
+764,Ship_764,Kuat Drive Yards,Corvette,6037
+765,Ship_765,Corellian Engineering Corporation,Transport,2823
+766,Ship_766,MandalMotors,Corvette,6940
+767,Ship_767,Corellian Engineering Corporation,Corvette,41
+768,Ship_768,MandalMotors,Starfighter,9502
+769,Ship_769,Kuat Drive Yards,Freighter,1377
+770,Ship_770,Incom Corporation,Transport,7206
+771,Ship_771,Incom Corporation,Starfighter,7740
+772,Ship_772,Incom Corporation,Capital Ship,9748
+773,Ship_773,Corellian Engineering Corporation,Starfighter,9037
+774,Ship_774,Sienar Fleet Systems,Freighter,6761
+775,Ship_775,Kuat Drive Yards,Starfighter,9337
+776,Ship_776,Sienar Fleet Systems,Capital Ship,7779
+777,Ship_777,Incom Corporation,Transport,9968
+778,Ship_778,Kuat Drive Yards,Capital Ship,3754
+779,Ship_779,MandalMotors,Freighter,5188
+780,Ship_780,Incom Corporation,Transport,4514
+781,Ship_781,Sienar Fleet Systems,Freighter,5914
+782,Ship_782,MandalMotors,Transport,7721
+783,Ship_783,Sienar Fleet Systems,Starfighter,3923
+784,Ship_784,Sienar Fleet Systems,Starfighter,8128
+785,Ship_785,Sienar Fleet Systems,Starfighter,9053
+786,Ship_786,Corellian Engineering Corporation,Starfighter,6182
+787,Ship_787,Corellian Engineering Corporation,Freighter,2272
+788,Ship_788,Corellian Engineering Corporation,Transport,1212
+789,Ship_789,Incom Corporation,Freighter,7336
+790,Ship_790,MandalMotors,Transport,6434
+791,Ship_791,Sienar Fleet Systems,Starfighter,2843
+792,Ship_792,Corellian Engineering Corporation,Transport,334
+793,Ship_793,Kuat Drive Yards,Starfighter,2815
+794,Ship_794,Kuat Drive Yards,Capital Ship,9654
+795,Ship_795,Incom Corporation,Starfighter,4725
+796,Ship_796,Kuat Drive Yards,Transport,4318
+797,Ship_797,MandalMotors,Capital Ship,682
+798,Ship_798,MandalMotors,Capital Ship,5150
+799,Ship_799,Corellian Engineering Corporation,Capital Ship,5166
+800,Ship_800,Sienar Fleet Systems,Transport,584
+801,Ship_801,Kuat Drive Yards,Transport,3553
+802,Ship_802,MandalMotors,Corvette,4154
+803,Ship_803,Sienar Fleet Systems,Corvette,7000
+804,Ship_804,Corellian Engineering Corporation,Corvette,5746
+805,Ship_805,Kuat Drive Yards,Starfighter,9523
+806,Ship_806,Incom Corporation,Freighter,465
+807,Ship_807,Sienar Fleet Systems,Starfighter,6865
+808,Ship_808,Incom Corporation,Corvette,8491
+809,Ship_809,MandalMotors,Capital Ship,2128
+810,Ship_810,Incom Corporation,Transport,6999
+811,Ship_811,Kuat Drive Yards,Capital Ship,752
+812,Ship_812,Corellian Engineering Corporation,Corvette,4485
+813,Ship_813,MandalMotors,Starfighter,5066
+814,Ship_814,Corellian Engineering Corporation,Transport,927
+815,Ship_815,Kuat Drive Yards,Starfighter,344
+816,Ship_816,Kuat Drive Yards,Freighter,2323
+817,Ship_817,MandalMotors,Starfighter,8468
+818,Ship_818,MandalMotors,Transport,5883
+819,Ship_819,Kuat Drive Yards,Freighter,4927
+820,Ship_820,MandalMotors,Capital Ship,8987
+821,Ship_821,Incom Corporation,Freighter,8775
+822,Ship_822,Incom Corporation,Freighter,481
+823,Ship_823,Sienar Fleet Systems,Freighter,9168
+824,Ship_824,Corellian Engineering Corporation,Starfighter,8479
+825,Ship_825,Corellian Engineering Corporation,Starfighter,9414
+826,Ship_826,Incom Corporation,Starfighter,5841
+827,Ship_827,Incom Corporation,Freighter,5765
+828,Ship_828,MandalMotors,Freighter,9603
+829,Ship_829,Sienar Fleet Systems,Transport,5991
+830,Ship_830,Sienar Fleet Systems,Transport,2960
+831,Ship_831,MandalMotors,Starfighter,2569
+832,Ship_832,MandalMotors,Starfighter,4212
+833,Ship_833,Corellian Engineering Corporation,Capital Ship,5173
+834,Ship_834,Incom Corporation,Starfighter,4234
+835,Ship_835,Corellian Engineering Corporation,Capital Ship,1386
+836,Ship_836,Corellian Engineering Corporation,Corvette,4807
+837,Ship_837,Corellian Engineering Corporation,Capital Ship,4463
+838,Ship_838,Corellian Engineering Corporation,Starfighter,3823
+839,Ship_839,Kuat Drive Yards,Transport,6979
+840,Ship_840,Incom Corporation,Transport,7994
+841,Ship_841,Kuat Drive Yards,Transport,9084
+842,Ship_842,Corellian Engineering Corporation,Starfighter,9000
+843,Ship_843,Sienar Fleet Systems,Corvette,9470
+844,Ship_844,Corellian Engineering Corporation,Transport,56
+845,Ship_845,Corellian Engineering Corporation,Transport,9957
+846,Ship_846,MandalMotors,Starfighter,4720
+847,Ship_847,Incom Corporation,Corvette,2369
+848,Ship_848,Corellian Engineering Corporation,Corvette,4742
+849,Ship_849,Corellian Engineering Corporation,Transport,3691
+850,Ship_850,Kuat Drive Yards,Transport,4314
+851,Ship_851,Kuat Drive Yards,Corvette,5136
+852,Ship_852,MandalMotors,Freighter,8613
+853,Ship_853,Sienar Fleet Systems,Starfighter,5815
+854,Ship_854,Kuat Drive Yards,Starfighter,9341
+855,Ship_855,Kuat Drive Yards,Capital Ship,2700
+856,Ship_856,Kuat Drive Yards,Capital Ship,1316
+857,Ship_857,Corellian Engineering Corporation,Freighter,4373
+858,Ship_858,Sienar Fleet Systems,Freighter,8329
+859,Ship_859,Incom Corporation,Starfighter,9146
+860,Ship_860,MandalMotors,Starfighter,2208
+861,Ship_861,Corellian Engineering Corporation,Capital Ship,7408
+862,Ship_862,MandalMotors,Corvette,3681
+863,Ship_863,Sienar Fleet Systems,Starfighter,9433
+864,Ship_864,Sienar Fleet Systems,Corvette,8705
+865,Ship_865,Sienar Fleet Systems,Transport,6827
+866,Ship_866,Incom Corporation,Starfighter,5054
+867,Ship_867,Corellian Engineering Corporation,Capital Ship,909
+868,Ship_868,Corellian Engineering Corporation,Capital Ship,7220
+869,Ship_869,Corellian Engineering Corporation,Corvette,5971
+870,Ship_870,Kuat Drive Yards,Freighter,9337
+871,Ship_871,Sienar Fleet Systems,Corvette,5234
+872,Ship_872,MandalMotors,Freighter,412
+873,Ship_873,MandalMotors,Capital Ship,7758
+874,Ship_874,MandalMotors,Starfighter,5094
+875,Ship_875,MandalMotors,Capital Ship,9678
+876,Ship_876,Kuat Drive Yards,Starfighter,4297
+877,Ship_877,Corellian Engineering Corporation,Starfighter,2219
+878,Ship_878,MandalMotors,Freighter,7174
+879,Ship_879,Kuat Drive Yards,Capital Ship,7661
+880,Ship_880,MandalMotors,Freighter,8486
+881,Ship_881,Kuat Drive Yards,Capital Ship,1828
+882,Ship_882,Corellian Engineering Corporation,Capital Ship,2490
+883,Ship_883,Incom Corporation,Freighter,7505
+884,Ship_884,Kuat Drive Yards,Starfighter,6978
+885,Ship_885,Incom Corporation,Capital Ship,1248
+886,Ship_886,Incom Corporation,Starfighter,6553
+887,Ship_887,Sienar Fleet Systems,Freighter,9203
+888,Ship_888,Incom Corporation,Capital Ship,8916
+889,Ship_889,MandalMotors,Capital Ship,640
+890,Ship_890,MandalMotors,Freighter,6807
+891,Ship_891,MandalMotors,Freighter,4061
+892,Ship_892,Sienar Fleet Systems,Transport,6828
+893,Ship_893,MandalMotors,Starfighter,7193
+894,Ship_894,Sienar Fleet Systems,Capital Ship,6625
+895,Ship_895,Corellian Engineering Corporation,Starfighter,5555
+896,Ship_896,Kuat Drive Yards,Freighter,2089
+897,Ship_897,MandalMotors,Freighter,1598
+898,Ship_898,Corellian Engineering Corporation,Capital Ship,4320
+899,Ship_899,Kuat Drive Yards,Transport,363
+900,Ship_900,Sienar Fleet Systems,Transport,5520
+901,Ship_901,Incom Corporation,Starfighter,6420
+902,Ship_902,Kuat Drive Yards,Transport,1526
+903,Ship_903,MandalMotors,Freighter,9299
+904,Ship_904,Sienar Fleet Systems,Freighter,3201
+905,Ship_905,Kuat Drive Yards,Transport,3484
+906,Ship_906,Corellian Engineering Corporation,Corvette,5797
+907,Ship_907,Kuat Drive Yards,Freighter,476
+908,Ship_908,Sienar Fleet Systems,Freighter,8152
+909,Ship_909,Incom Corporation,Starfighter,1634
+910,Ship_910,Incom Corporation,Corvette,2981
+911,Ship_911,Corellian Engineering Corporation,Freighter,8583
+912,Ship_912,Kuat Drive Yards,Freighter,1448
+913,Ship_913,Incom Corporation,Corvette,3097
+914,Ship_914,Kuat Drive Yards,Transport,5815
+915,Ship_915,Sienar Fleet Systems,Corvette,838
+916,Ship_916,MandalMotors,Capital Ship,9472
+917,Ship_917,Kuat Drive Yards,Starfighter,1178
+918,Ship_918,Kuat Drive Yards,Freighter,3885
+919,Ship_919,Sienar Fleet Systems,Transport,8097
+920,Ship_920,Corellian Engineering Corporation,Capital Ship,324
+921,Ship_921,Sienar Fleet Systems,Capital Ship,643
+922,Ship_922,Incom Corporation,Corvette,8112
+923,Ship_923,Kuat Drive Yards,Starfighter,7118
+924,Ship_924,MandalMotors,Corvette,91
+925,Ship_925,MandalMotors,Corvette,440
+926,Ship_926,Corellian Engineering Corporation,Corvette,8008
+927,Ship_927,Corellian Engineering Corporation,Freighter,4066
+928,Ship_928,Sienar Fleet Systems,Freighter,273
+929,Ship_929,Sienar Fleet Systems,Capital Ship,1946
+930,Ship_930,MandalMotors,Capital Ship,2513
+931,Ship_931,Corellian Engineering Corporation,Transport,2883
+932,Ship_932,MandalMotors,Capital Ship,6751
+933,Ship_933,Kuat Drive Yards,Transport,2086
+934,Ship_934,Incom Corporation,Freighter,7093
+935,Ship_935,MandalMotors,Corvette,3218
+936,Ship_936,Kuat Drive Yards,Freighter,1634
+937,Ship_937,Incom Corporation,Transport,9223
+938,Ship_938,Kuat Drive Yards,Capital Ship,3625
+939,Ship_939,Kuat Drive Yards,Freighter,9538
+940,Ship_940,Kuat Drive Yards,Freighter,6815
+941,Ship_941,Kuat Drive Yards,Capital Ship,7496
+942,Ship_942,MandalMotors,Transport,755
+943,Ship_943,Incom Corporation,Freighter,999
+944,Ship_944,Incom Corporation,Capital Ship,244
+945,Ship_945,Incom Corporation,Transport,8593
+946,Ship_946,MandalMotors,Freighter,7132
+947,Ship_947,Incom Corporation,Corvette,2213
+948,Ship_948,Corellian Engineering Corporation,Starfighter,5314
+949,Ship_949,Corellian Engineering Corporation,Transport,4675
+950,Ship_950,Incom Corporation,Starfighter,941
+951,Ship_951,Kuat Drive Yards,Corvette,4956
+952,Ship_952,Kuat Drive Yards,Transport,4226
+953,Ship_953,Corellian Engineering Corporation,Transport,433
+954,Ship_954,Incom Corporation,Capital Ship,8944
+955,Ship_955,Incom Corporation,Capital Ship,3422
+956,Ship_956,Incom Corporation,Starfighter,2111
+957,Ship_957,Corellian Engineering Corporation,Capital Ship,7459
+958,Ship_958,Incom Corporation,Capital Ship,9542
+959,Ship_959,Corellian Engineering Corporation,Freighter,3599
+960,Ship_960,Sienar Fleet Systems,Corvette,8510
+961,Ship_961,Corellian Engineering Corporation,Corvette,5165
+962,Ship_962,Kuat Drive Yards,Corvette,6808
+963,Ship_963,Corellian Engineering Corporation,Capital Ship,808
+964,Ship_964,Sienar Fleet Systems,Capital Ship,6358
+965,Ship_965,Incom Corporation,Starfighter,9367
+966,Ship_966,Incom Corporation,Corvette,7644
+967,Ship_967,Corellian Engineering Corporation,Starfighter,4549
+968,Ship_968,MandalMotors,Starfighter,6913
+969,Ship_969,Kuat Drive Yards,Starfighter,1026
+970,Ship_970,Sienar Fleet Systems,Capital Ship,7904
+971,Ship_971,Kuat Drive Yards,Starfighter,7521
+972,Ship_972,MandalMotors,Capital Ship,7336
+973,Ship_973,MandalMotors,Transport,6489
+974,Ship_974,MandalMotors,Corvette,4533
+975,Ship_975,MandalMotors,Corvette,2872
+976,Ship_976,MandalMotors,Capital Ship,9371
+977,Ship_977,Kuat Drive Yards,Transport,854
+978,Ship_978,MandalMotors,Starfighter,2668
+979,Ship_979,Corellian Engineering Corporation,Freighter,7922
+980,Ship_980,Kuat Drive Yards,Capital Ship,8756
+981,Ship_981,Corellian Engineering Corporation,Corvette,8479
+982,Ship_982,Incom Corporation,Corvette,2269
+983,Ship_983,Corellian Engineering Corporation,Starfighter,1087
+984,Ship_984,Sienar Fleet Systems,Corvette,6034
+985,Ship_985,Kuat Drive Yards,Capital Ship,8261
+986,Ship_986,Corellian Engineering Corporation,Capital Ship,6627
+987,Ship_987,Corellian Engineering Corporation,Freighter,8260
+988,Ship_988,MandalMotors,Freighter,270
+989,Ship_989,Kuat Drive Yards,Corvette,4411
+990,Ship_990,MandalMotors,Corvette,8081
+991,Ship_991,Kuat Drive Yards,Freighter,4826
+992,Ship_992,Kuat Drive Yards,Capital Ship,2280
+993,Ship_993,MandalMotors,Transport,891
+994,Ship_994,Kuat Drive Yards,Transport,8929
+995,Ship_995,MandalMotors,Corvette,1319
+996,Ship_996,Kuat Drive Yards,Capital Ship,6747
+997,Ship_997,Corellian Engineering Corporation,Corvette,3063
+998,Ship_998,Incom Corporation,Starfighter,4493
+999,Ship_999,Incom Corporation,Starfighter,1349
+1000,Ship_1000,Corellian Engineering Corporation,Transport,2551

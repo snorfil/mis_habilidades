@@ -1,0 +1,237 @@
+CREATE DATABASE cadena_hoteles;
+USE cadena_hoteles;
+
+CREATE TABLE Hotel (
+    id_hotel INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255)
+);
+
+CREATE TABLE Restaurante (
+    id_restaurante INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    id_hotel INT,
+    FOREIGN KEY (id_hotel) REFERENCES Hotel(id_hotel)
+);
+
+CREATE TABLE Cliente (
+    id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255),
+    preferencias_alimenticias TEXT
+);
+
+CREATE TABLE Habitacion (
+    id_habitacion INT PRIMARY KEY AUTO_INCREMENT,
+    numero VARCHAR(50) NOT NULL,
+    categoria VARCHAR(50),
+    tarifa_noche DECIMAL(10, 2)
+);
+
+CREATE TABLE Empleado (
+    id_empleado INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    posicion VARCHAR(50),
+    fecha_contratacion DATE,
+    id_hotel INT,
+    FOREIGN KEY (id_hotel) REFERENCES Hotel(id_hotel)
+);
+
+CREATE TABLE Menu (
+    id_menú INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    precio DECIMAL(10, 2),
+    disponibilidad BOOLEAN,
+    id_restaurante INT,
+    FOREIGN KEY (id_restaurante) REFERENCES Restaurante(id_restaurante)
+);
+
+CREATE TABLE Reserva (
+    id_reserva INT PRIMARY KEY AUTO_INCREMENT,
+    id_cliente INT,
+    fecha_llegada DATE,
+    fecha_salida DATE,
+    tipo_habitacion VARCHAR(50),
+    preferencias_comida TEXT,
+    id_restaurante INT,
+    FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente),
+    FOREIGN KEY (id_restaurante) REFERENCES Restaurante(id_restaurante)
+);
+
+
+
+Modelo de datos:
+Entidades clave:
+
+Sensor: id_sensor, tipo, ubicación
+Telemetría: id_telemetría, id_sensor, temperatura, humedad, presión, timestamp
+Alerta: id_alerta, id_telemetría, tipo, mensaje, timestamp
+Esquema:
+json
+Copiar código
+{
+  "Sensor": {
+    "id_sensor": "ObjectId",
+    "tipo": "String",
+    "ubicación": "String"
+  },
+  "Telemetría": {
+    "id_telemetría": "ObjectId",
+    "id_sensor": "ObjectId",
+    "temperatura": "Number",
+    "humedad": "Number",
+    "presión": "Number",
+    "timestamp": "Date"
+  },
+  "Alerta": {
+    "id_alerta": "ObjectId",
+    "id_telemetría": "ObjectId",
+    "tipo": "String",
+    "mensaje": "String",
+    "timestamp": "Date"
+  }
+}
+
+
+
+
+Modelo de datos:
+Entidades clave:
+
+Usuario: id_usuario, nombre, correo_electrónico
+Mensaje: id_mensaje, texto, fecha_publicación
+Me_gusta: id_usuario, id_mensaje
+Esquema:
+
+CREATE CONSTRAINT ON (u:Usuario) ASSERT u.id_usuario IS UNIQUE;
+CREATE CONSTRAINT ON (m:Mensaje) ASSERT m.id_mensaje IS UNIQUE;
+
+CREATE (u1:Usuario {id_usuario: 1, nombre: "Juan", correo_electrónico: "juan@example.com"}),
+       (u2:Usuario {id_usuario: 2, nombre: "Ana", correo_electrónico: "ana@example.com"});
+
+CREATE (m1:Mensaje {id_mensaje: 1, texto: "Hola mundo", fecha_publicación: date("2023-05-17")}),
+       (m2:Mensaje {id_mensaje: 2, texto: "Segundo mensaje", fecha_publicación: date("2023-05-18")});
+
+MATCH (u:Usuario), (m:Mensaje)
+WHERE u.id_usuario = 1 AND m.id_mensaje = 1
+CREATE (u)-[:CREA]->(m);
+
+MATCH (u:Usuario {id_usuario: 2}), (m:Mensaje {id_mensaje: 1})
+CREATE (u)-[:DA_ME_GUSTA]->(m);
+
+MATCH (u1:Usuario {id_usuario: 1}), (u2:Usuario {id_usuario: 2})
+CREATE (u1)-[:SIGUE]->(u2);
+
+
+
+
+
+
+
+
+# Cargar las librerías necesarias
+library(ggplot2)
+library(dplyr)
+
+# -------------------
+# Gráficos con mtcars
+# -------------------
+
+# 1. Recuentos de una variable discreta
+# Crear un gráfico de recuentos para la variable 'cyl'
+ggplot(mtcars, aes(x = factor(cyl))) +
+  geom_bar() +
+  labs(title = "Recuento de coches por número de cilindros",
+       x = "Número de cilindros",
+       y = "Cantidad de coches")
+
+# 2. Histograma o densidad de una variable continua
+# Crear un histograma para la variable 'mpg'
+ggplot(mtcars, aes(x = mpg)) +
+  geom_histogram(binwidth = 2, fill = "blue", color = "black") +
+  labs(title = "Histograma de millas por galón",
+       x = "Millas por galón (mpg)",
+       y = "Frecuencia")
+
+# 3. Diagrama de dispersión de dos variables continuas con una línea de media condicional suavizada
+# Crear un diagrama de dispersión con una línea suavizada
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "loess") +
+  labs(title = "Diagrama de dispersión de mpg vs hp",
+       x = "Caballos de fuerza (hp)",
+       y = "Millas por galón (mpg)")
+
+# 4. Tres variables
+# Crear un diagrama de dispersión coloreado por 'cyl'
+ggplot(mtcars, aes(x = hp, y = mpg, color = factor(cyl))) +
+  geom_point() +
+  labs(title = "Diagrama de dispersión de mpg vs hp coloreado por cilindros",
+       x = "Caballos de fuerza (hp)",
+       y = "Millas por galón (mpg)",
+       color = "Cilindros")
+
+# ---------------------
+# Gráficos con midwest
+# ---------------------
+
+# 5. Recuentos de una variable discreta
+# Crear un gráfico de recuentos para la variable 'state'
+ggplot(midwest, aes(x = state)) +
+  geom_bar() +
+  labs(title = "Recuento de áreas por estado",
+       x = "Estado",
+       y = "Cantidad de áreas")
+
+# 6. Histograma o densidad de una variable continua
+# Crear un histograma para la variable 'poptotal'
+ggplot(midwest, aes(x = poptotal)) +
+  geom_histogram(binwidth = 50000, fill = "blue", color = "black") +
+  labs(title = "Histograma de población total",
+       x = "Población total",
+       y = "Frecuencia")
+
+# 7. Diagrama de dispersión de dos variables continuas con una línea de media condicional suavizada
+# Crear un diagrama de dispersión con una línea suavizada
+ggplot(midwest, aes(x = area, y = poptotal)) +
+  geom_point() +
+  geom_smooth(method = "loess") +
+  labs(title = "Diagrama de dispersión de población total vs área",
+       x = "Área",
+       y = "Población total")
+
+# 8. Tres variables
+# Crear un diagrama de dispersión coloreado por 'state'
+ggplot(midwest, aes(x = area, y = poptotal, color = state)) +
+  geom_point() +
+  labs(title = "Diagrama de dispersión de población total vs área coloreado por estado",
+       x = "Área",
+       y = "Población total",
+       color = "Estado")
+
+# -----------------------------
+# Modificaciones adicionales
+# -----------------------------
+
+# 9. Cambiar el título y las etiquetas de los ejes
+# Crear un diagrama de dispersión con un título y etiquetas personalizadas
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "loess") +
+  labs(title = "Relación entre caballos de fuerza y millas por galón",
+       x = "Caballos de fuerza (hp)",
+       y = "Millas por galón (mpg)")
+
+# 10. Cambiar el tema
+# Cambiar el tema del gráfico
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "loess") +
+  labs(title = "Relación entre caballos de fuerza y millas por galón",
+       x = "Caballos de fuerza (hp)",
+       y = "Millas por galón (mpg)") +
+  theme_minimal()
+
+# 11. Guardar el gráfico como archivo de imagen
+# Guardar el gráfico como archivo de imagen
+ggsave("dispersion_mtcars.png", width = 8, height = 6)

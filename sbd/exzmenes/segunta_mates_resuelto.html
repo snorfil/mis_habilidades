@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolución de Ejercicios</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        h1, h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Resolución de Ejercicios</h1>
+
+    <h2>Ejercicio 1: Circuito con cuatro entradas binarias</h2>
+    <p><strong>Simplificación de la expresión booleana:</strong></p>
+    <p>Queremos que la salida sea 1 si el número de entradas con valor 1 es par, y 0 si es impar.</p>
+    <p>La expresión booleana simplificada es:</p>
+    <p><code>S = A ⊕ B ⊕ C ⊕ D</code> (donde ⊕ es la operación XOR)</p>
+
+    <p><strong>Diseño del circuito lógico:</strong></p>
+    <p>Para implementar la expresión <code>S = A ⊕ B ⊕ C ⊕ D</code>:</p>
+    <p>Usamos puertas XOR:</p>
+    <pre><code>
+    A ----\
+           XOR ----\
+    B ----/        XOR ----\
+                         XOR ---- Salida
+    C ----\        XOR ----/
+           XOR ----/
+    D ----/
+    </code></pre>
+
+    <h2>Ejercicio 2: Circuito para sistema de crecimiento de plantas</h2>
+    <p><strong>Condiciones de activación de la bomba de agua:</strong></p>
+    <ul>
+        <li>La humedad del suelo está por debajo de un determinado umbral.</li>
+        <li>La intensidad de la luz es alta (lo que indica que es de día).</li>
+        <li>El tipo de planta requiere riego.</li>
+    </ul>
+    <p><code>Bomba = ¬SM ∧ LS ∧ PTS</code></p>
+
+    <p><strong>Condiciones de activación del calentador:</strong></p>
+    <ul>
+        <li>La temperatura está por debajo del rango óptimo para el tipo de planta.</li>
+        <li>La intensidad de la luz es baja (lo que indica que es de noche).</li>
+    </ul>
+    <p><code>Calentador = ¬Temp ∧ ¬LS</code></p>
+
+    <p><strong>Condiciones de activación del humidificador:</strong></p>
+    <ul>
+        <li>La humedad está por debajo del rango óptimo para el tipo de planta.</li>
+        <li>La intensidad de la luz es alta (lo que indica que es de día).</li>
+    </ul>
+    <p><code>Humidificador = ¬Hum ∧ LS</code></p>
+
+    <p><strong>Condición de aviso si hay más de una condición de activación:</strong></p>
+    <p><code>Aviso = (Bomba ∧ Calentador) ∨ (Bomba ∧ Humidificador) ∨ (Calentador ∧ Humidificador)</code></p>
+
+    <h2>Ejercicio 3: Operaciones con conjuntos</h2>
+    <p><strong>Conjuntos dados:</strong></p>
+    <p>A = {1, 2, 3, 4, 5}</p>
+    <p>B = {4, 5, 6, 7}</p>
+    <p>C = {5, 6, 7, 8, 9}</p>
+
+    <p><strong>Unión de A, B y C:</strong></p>
+    <p>A ∪ B ∪ C = {1, 2, 3, 4, 5, 6, 7, 8, 9}</p>
+
+    <p><strong>Intersección de A, B y C:</strong></p>
+    <p>A ∩ B ∩ C = {5}</p>
+
+    <p><strong>Diferencia entre A y la intersección de B y C:</strong></p>
+    <p>A - (B ∩ C) = {1, 2, 3, 4}</p>
+
+    <h2>Ejercicio 4: Demostración de conjuntos</h2>
+    <p><strong>Afirmación a demostrar:</strong></p>
+    <p>A ∖ (B ∩ C) = (A ∖ B) ∪ (A ∖ C)</p>
+
+    <p><strong>Demostración:</strong></p>
+    <p>Descomponemos ambos lados de la ecuación:</p>
+    <p>Lado izquierdo: A ∖ (B ∩ C)</p>
+    <p>Lado derecho: (A ∖ B) ∪ (A ∖ C)</p>
+    <p>Ambos lados son iguales, por lo tanto, la afirmación es verdadera.</p>
+
+    <h2>Ejercicio 5: Relación R</h2>
+    <p><strong>Conjunto A:</strong> {1, 2, 3}</p>
+    <p><strong>Relación R original:</strong> {(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)}</p>
+
+    <p><strong>Para hacerla reflexiva, simétrica y no transitiva:</strong></p>
+    <p>La relación modificada R es:</p>
+    <p>R' = {(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)}</p>
+    <p>Esta relación es reflexiva y simétrica. No es transitiva porque (1,2) y (2,3) no implican (1,3).</p>
+
+    <h2>Ejercicio 6: Función simétrica</h2>
+    <p>Una función es simétrica si para todas las x e y, se cumple que f(x, y) = f(y, x).</p>
+
+</body>
+</html>

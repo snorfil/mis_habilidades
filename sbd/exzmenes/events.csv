@@ -1,0 +1,1001 @@
+id,event_name,date,planet_id
+1,Clone Wars,4756 BBY,476
+2,Clone Wars,7158 BBY,834
+3,Yuuzhan Vong War,2779 BBY,112
+4,Galactic Civil War,512 BBY,280
+5,Battle of Endor,280 BBY,571
+6,Yuuzhan Vong War,4620 BBY,810
+7,Battle of Endor,4992 BBY,107
+8,Clone Wars,8903 BBY,295
+9,Great Jedi Purge,735 BBY,590
+10,Yuuzhan Vong War,418 BBY,107
+11,Great Jedi Purge,5780 BBY,500
+12,Clone Wars,5482 BBY,656
+13,Great Jedi Purge,7515 BBY,460
+14,Yuuzhan Vong War,4096 BBY,145
+15,Battle of Endor,2856 BBY,495
+16,Great Jedi Purge,4226 BBY,769
+17,Great Jedi Purge,7923 BBY,455
+18,Galactic Civil War,377 BBY,389
+19,Yuuzhan Vong War,9776 BBY,640
+20,Great Jedi Purge,9671 BBY,113
+21,Great Jedi Purge,2439 BBY,835
+22,Yuuzhan Vong War,1503 BBY,621
+23,Clone Wars,3057 BBY,684
+24,Battle of Endor,3675 BBY,285
+25,Galactic Civil War,1482 BBY,386
+26,Great Jedi Purge,7673 BBY,512
+27,Battle of Endor,3696 BBY,873
+28,Galactic Civil War,933 BBY,306
+29,Clone Wars,7390 BBY,208
+30,Battle of Endor,1155 BBY,701
+31,Yuuzhan Vong War,7402 BBY,780
+32,Yuuzhan Vong War,8677 BBY,827
+33,Battle of Endor,8824 BBY,958
+34,Clone Wars,8865 BBY,111
+35,Clone Wars,5537 BBY,343
+36,Great Jedi Purge,4851 BBY,722
+37,Clone Wars,6317 BBY,273
+38,Great Jedi Purge,1773 BBY,961
+39,Galactic Civil War,1551 BBY,460
+40,Galactic Civil War,738 BBY,419
+41,Battle of Endor,3315 BBY,962
+42,Yuuzhan Vong War,3983 BBY,280
+43,Battle of Endor,1365 BBY,64
+44,Galactic Civil War,8008 BBY,613
+45,Galactic Civil War,6829 BBY,253
+46,Battle of Endor,8908 BBY,564
+47,Clone Wars,1833 BBY,381
+48,Clone Wars,1999 BBY,360
+49,Battle of Endor,285 BBY,783
+50,Battle of Endor,5944 BBY,602
+51,Yuuzhan Vong War,6598 BBY,515
+52,Clone Wars,6787 BBY,592
+53,Clone Wars,6002 BBY,599
+54,Yuuzhan Vong War,9653 BBY,335
+55,Yuuzhan Vong War,9442 BBY,642
+56,Yuuzhan Vong War,4882 BBY,772
+57,Great Jedi Purge,5522 BBY,251
+58,Clone Wars,3604 BBY,925
+59,Clone Wars,9885 BBY,499
+60,Yuuzhan Vong War,7852 BBY,849
+61,Yuuzhan Vong War,4932 BBY,250
+62,Great Jedi Purge,1414 BBY,1000
+63,Great Jedi Purge,2993 BBY,810
+64,Galactic Civil War,4928 BBY,13
+65,Galactic Civil War,2920 BBY,359
+66,Galactic Civil War,3360 BBY,270
+67,Clone Wars,3610 BBY,56
+68,Battle of Endor,1085 BBY,517
+69,Battle of Endor,4956 BBY,191
+70,Battle of Endor,1333 BBY,265
+71,Clone Wars,4562 BBY,916
+72,Galactic Civil War,1897 BBY,649
+73,Battle of Endor,1855 BBY,960
+74,Great Jedi Purge,799 BBY,297
+75,Battle of Endor,5383 BBY,546
+76,Galactic Civil War,6056 BBY,401
+77,Yuuzhan Vong War,4926 BBY,497
+78,Clone Wars,2151 BBY,630
+79,Great Jedi Purge,9298 BBY,167
+80,Clone Wars,2074 BBY,48
+81,Yuuzhan Vong War,6054 BBY,327
+82,Clone Wars,4217 BBY,191
+83,Clone Wars,3878 BBY,629
+84,Galactic Civil War,1674 BBY,17
+85,Yuuzhan Vong War,5355 BBY,503
+86,Yuuzhan Vong War,380 BBY,95
+87,Battle of Endor,9400 BBY,419
+88,Battle of Endor,7960 BBY,118
+89,Clone Wars,1204 BBY,602
+90,Great Jedi Purge,4084 BBY,475
+91,Great Jedi Purge,9306 BBY,406
+92,Yuuzhan Vong War,7363 BBY,629
+93,Yuuzhan Vong War,6131 BBY,848
+94,Clone Wars,9979 BBY,240
+95,Yuuzhan Vong War,5549 BBY,791
+96,Clone Wars,475 BBY,302
+97,Yuuzhan Vong War,2171 BBY,646
+98,Battle of Endor,6433 BBY,42
+99,Battle of Endor,6286 BBY,18
+100,Yuuzhan Vong War,8388 BBY,307
+101,Clone Wars,9059 BBY,495
+102,Clone Wars,3285 BBY,166
+103,Great Jedi Purge,5540 BBY,206
+104,Galactic Civil War,3741 BBY,678
+105,Galactic Civil War,8141 BBY,568
+106,Galactic Civil War,2765 BBY,563
+107,Clone Wars,8568 BBY,764
+108,Battle of Endor,3000 BBY,12
+109,Galactic Civil War,5284 BBY,944
+110,Great Jedi Purge,1419 BBY,658
+111,Clone Wars,9508 BBY,554
+112,Galactic Civil War,3563 BBY,383
+113,Yuuzhan Vong War,326 BBY,115
+114,Battle of Endor,4001 BBY,469
+115,Yuuzhan Vong War,4153 BBY,675
+116,Battle of Endor,5383 BBY,562
+117,Galactic Civil War,9718 BBY,437
+118,Galactic Civil War,4885 BBY,428
+119,Battle of Endor,5482 BBY,963
+120,Great Jedi Purge,1638 BBY,850
+121,Great Jedi Purge,7302 BBY,757
+122,Battle of Endor,7521 BBY,638
+123,Galactic Civil War,4337 BBY,241
+124,Battle of Endor,8857 BBY,365
+125,Battle of Endor,2018 BBY,831
+126,Great Jedi Purge,9931 BBY,645
+127,Great Jedi Purge,7911 BBY,730
+128,Great Jedi Purge,5733 BBY,391
+129,Yuuzhan Vong War,6927 BBY,186
+130,Great Jedi Purge,8854 BBY,417
+131,Great Jedi Purge,8331 BBY,28
+132,Galactic Civil War,9456 BBY,270
+133,Yuuzhan Vong War,3570 BBY,481
+134,Clone Wars,2243 BBY,741
+135,Galactic Civil War,6844 BBY,74
+136,Yuuzhan Vong War,266 BBY,413
+137,Clone Wars,7207 BBY,616
+138,Great Jedi Purge,3963 BBY,99
+139,Clone Wars,5232 BBY,692
+140,Battle of Endor,2932 BBY,138
+141,Clone Wars,7398 BBY,363
+142,Battle of Endor,7178 BBY,588
+143,Clone Wars,785 BBY,724
+144,Battle of Endor,2603 BBY,581
+145,Yuuzhan Vong War,383 BBY,617
+146,Battle of Endor,3499 BBY,110
+147,Clone Wars,1991 BBY,609
+148,Galactic Civil War,5433 BBY,30
+149,Clone Wars,4073 BBY,26
+150,Clone Wars,7263 BBY,335
+151,Battle of Endor,9357 BBY,808
+152,Battle of Endor,6059 BBY,625
+153,Great Jedi Purge,7297 BBY,988
+154,Clone Wars,150 BBY,348
+155,Battle of Endor,3190 BBY,137
+156,Great Jedi Purge,3734 BBY,934
+157,Galactic Civil War,5661 BBY,510
+158,Clone Wars,9849 BBY,196
+159,Great Jedi Purge,7664 BBY,651
+160,Galactic Civil War,1287 BBY,181
+161,Clone Wars,5966 BBY,427
+162,Battle of Endor,1231 BBY,333
+163,Clone Wars,2054 BBY,849
+164,Galactic Civil War,6540 BBY,746
+165,Great Jedi Purge,6758 BBY,119
+166,Great Jedi Purge,8324 BBY,443
+167,Yuuzhan Vong War,8992 BBY,552
+168,Clone Wars,7859 BBY,478
+169,Galactic Civil War,6942 BBY,66
+170,Yuuzhan Vong War,6605 BBY,625
+171,Battle of Endor,8500 BBY,201
+172,Battle of Endor,1551 BBY,495
+173,Yuuzhan Vong War,7437 BBY,218
+174,Galactic Civil War,3128 BBY,507
+175,Galactic Civil War,9249 BBY,406
+176,Yuuzhan Vong War,1385 BBY,140
+177,Clone Wars,8605 BBY,971
+178,Great Jedi Purge,5147 BBY,15
+179,Great Jedi Purge,357 BBY,231
+180,Great Jedi Purge,8814 BBY,45
+181,Clone Wars,7144 BBY,897
+182,Galactic Civil War,2625 BBY,372
+183,Clone Wars,7905 BBY,468
+184,Galactic Civil War,5824 BBY,707
+185,Galactic Civil War,6057 BBY,454
+186,Galactic Civil War,6277 BBY,701
+187,Galactic Civil War,5557 BBY,803
+188,Clone Wars,6759 BBY,668
+189,Great Jedi Purge,3308 BBY,168
+190,Great Jedi Purge,4946 BBY,792
+191,Galactic Civil War,8482 BBY,753
+192,Clone Wars,6705 BBY,943
+193,Clone Wars,8110 BBY,864
+194,Clone Wars,3220 BBY,613
+195,Yuuzhan Vong War,1543 BBY,6
+196,Clone Wars,9522 BBY,397
+197,Clone Wars,2306 BBY,452
+198,Battle of Endor,7968 BBY,499
+199,Clone Wars,5160 BBY,576
+200,Galactic Civil War,4880 BBY,457
+201,Clone Wars,1746 BBY,461
+202,Clone Wars,6686 BBY,11
+203,Galactic Civil War,8983 BBY,393
+204,Galactic Civil War,541 BBY,490
+205,Yuuzhan Vong War,9736 BBY,556
+206,Clone Wars,2761 BBY,941
+207,Yuuzhan Vong War,3627 BBY,804
+208,Great Jedi Purge,8034 BBY,720
+209,Clone Wars,6294 BBY,655
+210,Clone Wars,3171 BBY,532
+211,Great Jedi Purge,5340 BBY,626
+212,Yuuzhan Vong War,7762 BBY,653
+213,Galactic Civil War,428 BBY,131
+214,Galactic Civil War,7954 BBY,699
+215,Yuuzhan Vong War,4178 BBY,796
+216,Galactic Civil War,4030 BBY,498
+217,Battle of Endor,8728 BBY,262
+218,Clone Wars,9449 BBY,352
+219,Great Jedi Purge,5701 BBY,867
+220,Battle of Endor,9891 BBY,80
+221,Great Jedi Purge,7534 BBY,722
+222,Clone Wars,8141 BBY,436
+223,Clone Wars,2563 BBY,69
+224,Clone Wars,4921 BBY,769
+225,Battle of Endor,2176 BBY,678
+226,Great Jedi Purge,8364 BBY,883
+227,Yuuzhan Vong War,2097 BBY,203
+228,Great Jedi Purge,8654 BBY,599
+229,Battle of Endor,3344 BBY,417
+230,Clone Wars,6405 BBY,825
+231,Battle of Endor,8298 BBY,94
+232,Yuuzhan Vong War,4778 BBY,388
+233,Clone Wars,1424 BBY,17
+234,Battle of Endor,1307 BBY,943
+235,Great Jedi Purge,1009 BBY,663
+236,Great Jedi Purge,6014 BBY,395
+237,Yuuzhan Vong War,1825 BBY,918
+238,Clone Wars,5375 BBY,494
+239,Yuuzhan Vong War,2677 BBY,873
+240,Battle of Endor,3833 BBY,32
+241,Yuuzhan Vong War,3351 BBY,747
+242,Great Jedi Purge,7777 BBY,358
+243,Great Jedi Purge,3189 BBY,448
+244,Clone Wars,6822 BBY,763
+245,Yuuzhan Vong War,2158 BBY,691
+246,Galactic Civil War,1638 BBY,197
+247,Clone Wars,4614 BBY,29
+248,Galactic Civil War,1617 BBY,291
+249,Great Jedi Purge,1053 BBY,908
+250,Yuuzhan Vong War,9032 BBY,758
+251,Battle of Endor,1842 BBY,718
+252,Great Jedi Purge,8550 BBY,142
+253,Galactic Civil War,2787 BBY,847
+254,Yuuzhan Vong War,9878 BBY,972
+255,Yuuzhan Vong War,6085 BBY,299
+256,Clone Wars,4954 BBY,513
+257,Great Jedi Purge,9057 BBY,81
+258,Galactic Civil War,3114 BBY,19
+259,Clone Wars,7401 BBY,958
+260,Clone Wars,5455 BBY,313
+261,Galactic Civil War,8605 BBY,418
+262,Clone Wars,7477 BBY,981
+263,Yuuzhan Vong War,7904 BBY,168
+264,Battle of Endor,8830 BBY,34
+265,Battle of Endor,656 BBY,211
+266,Clone Wars,322 BBY,848
+267,Clone Wars,8761 BBY,376
+268,Yuuzhan Vong War,8219 BBY,360
+269,Great Jedi Purge,2802 BBY,457
+270,Yuuzhan Vong War,7649 BBY,843
+271,Galactic Civil War,7444 BBY,261
+272,Yuuzhan Vong War,4918 BBY,172
+273,Clone Wars,2436 BBY,894
+274,Yuuzhan Vong War,8316 BBY,19
+275,Yuuzhan Vong War,6654 BBY,851
+276,Battle of Endor,3409 BBY,888
+277,Galactic Civil War,2397 BBY,852
+278,Galactic Civil War,9085 BBY,344
+279,Battle of Endor,716 BBY,214
+280,Battle of Endor,669 BBY,410
+281,Great Jedi Purge,4846 BBY,531
+282,Great Jedi Purge,1630 BBY,467
+283,Great Jedi Purge,2406 BBY,879
+284,Galactic Civil War,5429 BBY,912
+285,Battle of Endor,2829 BBY,398
+286,Clone Wars,6886 BBY,412
+287,Yuuzhan Vong War,5756 BBY,980
+288,Battle of Endor,8955 BBY,910
+289,Great Jedi Purge,5625 BBY,446
+290,Clone Wars,338 BBY,400
+291,Yuuzhan Vong War,4661 BBY,218
+292,Galactic Civil War,8482 BBY,320
+293,Clone Wars,7954 BBY,586
+294,Yuuzhan Vong War,8588 BBY,78
+295,Galactic Civil War,4745 BBY,156
+296,Battle of Endor,1263 BBY,963
+297,Clone Wars,8752 BBY,695
+298,Yuuzhan Vong War,6739 BBY,817
+299,Clone Wars,1839 BBY,549
+300,Clone Wars,5280 BBY,220
+301,Galactic Civil War,647 BBY,826
+302,Galactic Civil War,1560 BBY,186
+303,Yuuzhan Vong War,6983 BBY,286
+304,Yuuzhan Vong War,7509 BBY,83
+305,Yuuzhan Vong War,6635 BBY,916
+306,Great Jedi Purge,3728 BBY,40
+307,Clone Wars,1519 BBY,218
+308,Clone Wars,2705 BBY,384
+309,Great Jedi Purge,3862 BBY,752
+310,Great Jedi Purge,3040 BBY,33
+311,Yuuzhan Vong War,7781 BBY,184
+312,Battle of Endor,7199 BBY,574
+313,Great Jedi Purge,3632 BBY,41
+314,Great Jedi Purge,8871 BBY,34
+315,Battle of Endor,9389 BBY,8
+316,Galactic Civil War,7255 BBY,227
+317,Galactic Civil War,5945 BBY,305
+318,Battle of Endor,3569 BBY,951
+319,Battle of Endor,8511 BBY,642
+320,Great Jedi Purge,5672 BBY,924
+321,Battle of Endor,7037 BBY,47
+322,Battle of Endor,6344 BBY,850
+323,Galactic Civil War,6075 BBY,613
+324,Yuuzhan Vong War,8533 BBY,661
+325,Battle of Endor,1697 BBY,937
+326,Galactic Civil War,3105 BBY,729
+327,Galactic Civil War,5352 BBY,859
+328,Battle of Endor,3620 BBY,504
+329,Great Jedi Purge,5823 BBY,819
+330,Clone Wars,2108 BBY,628
+331,Great Jedi Purge,1753 BBY,547
+332,Battle of Endor,5158 BBY,24
+333,Clone Wars,4087 BBY,536
+334,Great Jedi Purge,4837 BBY,172
+335,Clone Wars,5256 BBY,941
+336,Galactic Civil War,4436 BBY,655
+337,Great Jedi Purge,6512 BBY,668
+338,Clone Wars,5050 BBY,126
+339,Clone Wars,4777 BBY,151
+340,Galactic Civil War,65 BBY,37
+341,Great Jedi Purge,3904 BBY,211
+342,Battle of Endor,5193 BBY,170
+343,Clone Wars,8995 BBY,32
+344,Battle of Endor,1506 BBY,367
+345,Great Jedi Purge,9144 BBY,711
+346,Galactic Civil War,6472 BBY,552
+347,Great Jedi Purge,6848 BBY,948
+348,Great Jedi Purge,2072 BBY,557
+349,Yuuzhan Vong War,8152 BBY,379
+350,Galactic Civil War,789 BBY,858
+351,Clone Wars,9147 BBY,821
+352,Great Jedi Purge,9210 BBY,895
+353,Yuuzhan Vong War,5705 BBY,229
+354,Galactic Civil War,3932 BBY,937
+355,Yuuzhan Vong War,3726 BBY,441
+356,Galactic Civil War,3175 BBY,270
+357,Great Jedi Purge,8406 BBY,368
+358,Clone Wars,4745 BBY,621
+359,Yuuzhan Vong War,9163 BBY,195
+360,Great Jedi Purge,4788 BBY,13
+361,Great Jedi Purge,1718 BBY,48
+362,Battle of Endor,8070 BBY,919
+363,Battle of Endor,4617 BBY,761
+364,Yuuzhan Vong War,6064 BBY,165
+365,Great Jedi Purge,1927 BBY,972
+366,Battle of Endor,3477 BBY,927
+367,Galactic Civil War,1598 BBY,342
+368,Clone Wars,7966 BBY,335
+369,Galactic Civil War,3542 BBY,171
+370,Battle of Endor,8280 BBY,905
+371,Battle of Endor,8647 BBY,716
+372,Yuuzhan Vong War,6982 BBY,543
+373,Clone Wars,9682 BBY,117
+374,Great Jedi Purge,4244 BBY,840
+375,Clone Wars,3327 BBY,836
+376,Great Jedi Purge,3633 BBY,160
+377,Yuuzhan Vong War,6188 BBY,235
+378,Clone Wars,8697 BBY,313
+379,Yuuzhan Vong War,1374 BBY,292
+380,Yuuzhan Vong War,475 BBY,772
+381,Clone Wars,8017 BBY,219
+382,Great Jedi Purge,3274 BBY,813
+383,Battle of Endor,2433 BBY,155
+384,Clone Wars,9535 BBY,550
+385,Clone Wars,3665 BBY,213
+386,Galactic Civil War,6026 BBY,689
+387,Battle of Endor,8102 BBY,627
+388,Galactic Civil War,2358 BBY,857
+389,Battle of Endor,7504 BBY,96
+390,Galactic Civil War,6912 BBY,516
+391,Galactic Civil War,6666 BBY,507
+392,Galactic Civil War,2868 BBY,362
+393,Battle of Endor,2609 BBY,351
+394,Great Jedi Purge,7546 BBY,888
+395,Galactic Civil War,5418 BBY,592
+396,Battle of Endor,6860 BBY,277
+397,Galactic Civil War,9124 BBY,125
+398,Battle of Endor,7456 BBY,961
+399,Galactic Civil War,5062 BBY,227
+400,Clone Wars,5869 BBY,160
+401,Great Jedi Purge,1894 BBY,98
+402,Yuuzhan Vong War,4477 BBY,376
+403,Great Jedi Purge,6033 BBY,218
+404,Battle of Endor,8305 BBY,527
+405,Clone Wars,8294 BBY,863
+406,Great Jedi Purge,5774 BBY,662
+407,Yuuzhan Vong War,7581 BBY,621
+408,Battle of Endor,2525 BBY,832
+409,Battle of Endor,9164 BBY,146
+410,Galactic Civil War,3390 BBY,968
+411,Great Jedi Purge,6909 BBY,794
+412,Clone Wars,9979 BBY,595
+413,Battle of Endor,5822 BBY,129
+414,Galactic Civil War,2720 BBY,986
+415,Battle of Endor,2585 BBY,809
+416,Battle of Endor,7285 BBY,125
+417,Galactic Civil War,2425 BBY,719
+418,Clone Wars,1206 BBY,126
+419,Great Jedi Purge,5462 BBY,950
+420,Great Jedi Purge,1830 BBY,884
+421,Battle of Endor,5607 BBY,788
+422,Clone Wars,9612 BBY,583
+423,Clone Wars,6969 BBY,409
+424,Galactic Civil War,8689 BBY,699
+425,Clone Wars,6099 BBY,593
+426,Battle of Endor,7157 BBY,859
+427,Clone Wars,3660 BBY,890
+428,Galactic Civil War,7038 BBY,951
+429,Great Jedi Purge,1112 BBY,471
+430,Galactic Civil War,1760 BBY,694
+431,Great Jedi Purge,864 BBY,391
+432,Great Jedi Purge,1551 BBY,73
+433,Battle of Endor,2971 BBY,994
+434,Galactic Civil War,2874 BBY,744
+435,Yuuzhan Vong War,9687 BBY,159
+436,Great Jedi Purge,8540 BBY,786
+437,Clone Wars,4061 BBY,839
+438,Clone Wars,818 BBY,27
+439,Galactic Civil War,5267 BBY,850
+440,Battle of Endor,1117 BBY,141
+441,Galactic Civil War,8789 BBY,234
+442,Yuuzhan Vong War,4117 BBY,146
+443,Clone Wars,1796 BBY,13
+444,Battle of Endor,9143 BBY,991
+445,Great Jedi Purge,6584 BBY,271
+446,Battle of Endor,147 BBY,702
+447,Galactic Civil War,5177 BBY,930
+448,Galactic Civil War,9023 BBY,123
+449,Clone Wars,6458 BBY,87
+450,Galactic Civil War,6995 BBY,211
+451,Battle of Endor,6080 BBY,594
+452,Great Jedi Purge,3759 BBY,222
+453,Battle of Endor,6655 BBY,816
+454,Yuuzhan Vong War,9808 BBY,814
+455,Great Jedi Purge,2433 BBY,612
+456,Battle of Endor,1558 BBY,228
+457,Clone Wars,9101 BBY,67
+458,Clone Wars,8428 BBY,5
+459,Yuuzhan Vong War,7670 BBY,908
+460,Battle of Endor,3563 BBY,225
+461,Clone Wars,7710 BBY,861
+462,Battle of Endor,5618 BBY,915
+463,Great Jedi Purge,5781 BBY,57
+464,Battle of Endor,4942 BBY,258
+465,Great Jedi Purge,3505 BBY,357
+466,Great Jedi Purge,66 BBY,299
+467,Clone Wars,9199 BBY,497
+468,Galactic Civil War,3917 BBY,472
+469,Galactic Civil War,9794 BBY,66
+470,Battle of Endor,2474 BBY,302
+471,Galactic Civil War,8546 BBY,388
+472,Yuuzhan Vong War,1774 BBY,19
+473,Great Jedi Purge,6125 BBY,712
+474,Yuuzhan Vong War,3219 BBY,424
+475,Battle of Endor,8311 BBY,13
+476,Clone Wars,1323 BBY,977
+477,Great Jedi Purge,6050 BBY,364
+478,Clone Wars,8992 BBY,946
+479,Great Jedi Purge,7657 BBY,157
+480,Battle of Endor,8486 BBY,754
+481,Clone Wars,5411 BBY,134
+482,Galactic Civil War,7383 BBY,998
+483,Battle of Endor,869 BBY,921
+484,Galactic Civil War,5009 BBY,92
+485,Battle of Endor,9230 BBY,185
+486,Galactic Civil War,6223 BBY,337
+487,Yuuzhan Vong War,5057 BBY,440
+488,Battle of Endor,9183 BBY,867
+489,Great Jedi Purge,8968 BBY,919
+490,Battle of Endor,8616 BBY,429
+491,Galactic Civil War,1314 BBY,47
+492,Galactic Civil War,994 BBY,728
+493,Yuuzhan Vong War,2147 BBY,309
+494,Clone Wars,1013 BBY,732
+495,Clone Wars,6554 BBY,675
+496,Yuuzhan Vong War,8735 BBY,199
+497,Great Jedi Purge,3200 BBY,615
+498,Clone Wars,9468 BBY,198
+499,Clone Wars,2828 BBY,389
+500,Yuuzhan Vong War,147 BBY,194
+501,Battle of Endor,7199 BBY,547
+502,Galactic Civil War,7623 BBY,812
+503,Yuuzhan Vong War,2263 BBY,16
+504,Great Jedi Purge,5016 BBY,880
+505,Galactic Civil War,1727 BBY,247
+506,Great Jedi Purge,7576 BBY,685
+507,Great Jedi Purge,1732 BBY,783
+508,Yuuzhan Vong War,8021 BBY,203
+509,Galactic Civil War,9512 BBY,633
+510,Clone Wars,4272 BBY,902
+511,Yuuzhan Vong War,6204 BBY,189
+512,Galactic Civil War,3326 BBY,816
+513,Yuuzhan Vong War,3330 BBY,11
+514,Yuuzhan Vong War,3595 BBY,214
+515,Clone Wars,9452 BBY,475
+516,Yuuzhan Vong War,8989 BBY,860
+517,Great Jedi Purge,920 BBY,879
+518,Battle of Endor,4903 BBY,509
+519,Yuuzhan Vong War,1792 BBY,675
+520,Yuuzhan Vong War,381 BBY,992
+521,Battle of Endor,723 BBY,962
+522,Battle of Endor,3877 BBY,887
+523,Galactic Civil War,7240 BBY,545
+524,Yuuzhan Vong War,5874 BBY,229
+525,Yuuzhan Vong War,8012 BBY,431
+526,Great Jedi Purge,6087 BBY,20
+527,Yuuzhan Vong War,2527 BBY,860
+528,Yuuzhan Vong War,8326 BBY,917
+529,Great Jedi Purge,5374 BBY,691
+530,Battle of Endor,909 BBY,824
+531,Yuuzhan Vong War,2768 BBY,909
+532,Battle of Endor,8086 BBY,21
+533,Battle of Endor,7481 BBY,467
+534,Battle of Endor,7085 BBY,407
+535,Galactic Civil War,8832 BBY,137
+536,Great Jedi Purge,8884 BBY,931
+537,Clone Wars,2887 BBY,97
+538,Battle of Endor,7758 BBY,367
+539,Yuuzhan Vong War,9876 BBY,690
+540,Galactic Civil War,7741 BBY,7
+541,Yuuzhan Vong War,4450 BBY,836
+542,Battle of Endor,8574 BBY,696
+543,Battle of Endor,4812 BBY,847
+544,Battle of Endor,1664 BBY,658
+545,Battle of Endor,4919 BBY,45
+546,Great Jedi Purge,3470 BBY,245
+547,Great Jedi Purge,4677 BBY,63
+548,Yuuzhan Vong War,4983 BBY,503
+549,Battle of Endor,687 BBY,49
+550,Clone Wars,8667 BBY,395
+551,Clone Wars,6526 BBY,655
+552,Battle of Endor,5595 BBY,986
+553,Great Jedi Purge,7255 BBY,728
+554,Battle of Endor,9733 BBY,242
+555,Galactic Civil War,7362 BBY,97
+556,Clone Wars,9085 BBY,473
+557,Battle of Endor,3701 BBY,304
+558,Clone Wars,3546 BBY,933
+559,Great Jedi Purge,4918 BBY,259
+560,Battle of Endor,9725 BBY,856
+561,Great Jedi Purge,9044 BBY,222
+562,Galactic Civil War,8184 BBY,904
+563,Yuuzhan Vong War,5697 BBY,666
+564,Great Jedi Purge,1384 BBY,929
+565,Clone Wars,6745 BBY,217
+566,Galactic Civil War,5929 BBY,728
+567,Great Jedi Purge,2883 BBY,293
+568,Galactic Civil War,2851 BBY,767
+569,Galactic Civil War,870 BBY,844
+570,Battle of Endor,541 BBY,8
+571,Galactic Civil War,4895 BBY,504
+572,Clone Wars,9051 BBY,162
+573,Great Jedi Purge,4401 BBY,799
+574,Galactic Civil War,4371 BBY,242
+575,Clone Wars,3398 BBY,812
+576,Great Jedi Purge,1304 BBY,248
+577,Clone Wars,5834 BBY,459
+578,Clone Wars,3838 BBY,74
+579,Galactic Civil War,4420 BBY,516
+580,Clone Wars,6306 BBY,574
+581,Battle of Endor,3073 BBY,612
+582,Clone Wars,1990 BBY,24
+583,Yuuzhan Vong War,3044 BBY,525
+584,Battle of Endor,4602 BBY,771
+585,Battle of Endor,7482 BBY,664
+586,Yuuzhan Vong War,266 BBY,377
+587,Great Jedi Purge,9166 BBY,136
+588,Clone Wars,6674 BBY,760
+589,Great Jedi Purge,5602 BBY,376
+590,Yuuzhan Vong War,7127 BBY,105
+591,Clone Wars,8149 BBY,526
+592,Yuuzhan Vong War,9041 BBY,639
+593,Great Jedi Purge,5405 BBY,827
+594,Galactic Civil War,6696 BBY,400
+595,Galactic Civil War,967 BBY,612
+596,Great Jedi Purge,9671 BBY,999
+597,Yuuzhan Vong War,7711 BBY,715
+598,Battle of Endor,6419 BBY,464
+599,Clone Wars,3121 BBY,130
+600,Galactic Civil War,2379 BBY,413
+601,Clone Wars,3222 BBY,566
+602,Clone Wars,9368 BBY,275
+603,Clone Wars,7952 BBY,618
+604,Clone Wars,4247 BBY,187
+605,Yuuzhan Vong War,2187 BBY,795
+606,Yuuzhan Vong War,1148 BBY,627
+607,Yuuzhan Vong War,2988 BBY,8
+608,Yuuzhan Vong War,5650 BBY,440
+609,Great Jedi Purge,7200 BBY,429
+610,Galactic Civil War,5320 BBY,182
+611,Clone Wars,9636 BBY,498
+612,Clone Wars,9458 BBY,31
+613,Battle of Endor,405 BBY,373
+614,Battle of Endor,4999 BBY,717
+615,Galactic Civil War,8201 BBY,416
+616,Clone Wars,7545 BBY,231
+617,Battle of Endor,962 BBY,108
+618,Clone Wars,9875 BBY,162
+619,Yuuzhan Vong War,3498 BBY,926
+620,Yuuzhan Vong War,7469 BBY,368
+621,Battle of Endor,7660 BBY,270
+622,Great Jedi Purge,8607 BBY,50
+623,Galactic Civil War,5953 BBY,709
+624,Galactic Civil War,3832 BBY,35
+625,Galactic Civil War,8848 BBY,814
+626,Galactic Civil War,5679 BBY,653
+627,Battle of Endor,6361 BBY,991
+628,Clone Wars,2410 BBY,290
+629,Battle of Endor,3716 BBY,485
+630,Clone Wars,3889 BBY,306
+631,Clone Wars,864 BBY,166
+632,Yuuzhan Vong War,2709 BBY,194
+633,Battle of Endor,1218 BBY,697
+634,Battle of Endor,6576 BBY,522
+635,Yuuzhan Vong War,739 BBY,890
+636,Great Jedi Purge,2201 BBY,515
+637,Yuuzhan Vong War,1722 BBY,411
+638,Great Jedi Purge,8524 BBY,238
+639,Yuuzhan Vong War,2232 BBY,194
+640,Yuuzhan Vong War,107 BBY,669
+641,Galactic Civil War,9734 BBY,211
+642,Battle of Endor,7662 BBY,958
+643,Galactic Civil War,5795 BBY,979
+644,Yuuzhan Vong War,177 BBY,292
+645,Clone Wars,4530 BBY,135
+646,Galactic Civil War,4428 BBY,764
+647,Yuuzhan Vong War,1332 BBY,153
+648,Clone Wars,6302 BBY,606
+649,Galactic Civil War,2593 BBY,938
+650,Yuuzhan Vong War,7401 BBY,273
+651,Battle of Endor,1421 BBY,217
+652,Clone Wars,3324 BBY,489
+653,Great Jedi Purge,9801 BBY,337
+654,Clone Wars,7017 BBY,771
+655,Clone Wars,3676 BBY,703
+656,Great Jedi Purge,7220 BBY,252
+657,Yuuzhan Vong War,6427 BBY,503
+658,Yuuzhan Vong War,7435 BBY,509
+659,Galactic Civil War,3174 BBY,712
+660,Yuuzhan Vong War,5546 BBY,762
+661,Great Jedi Purge,8460 BBY,471
+662,Clone Wars,9071 BBY,431
+663,Great Jedi Purge,7880 BBY,334
+664,Great Jedi Purge,6370 BBY,67
+665,Yuuzhan Vong War,816 BBY,456
+666,Clone Wars,2304 BBY,735
+667,Yuuzhan Vong War,6916 BBY,823
+668,Clone Wars,8464 BBY,534
+669,Clone Wars,7798 BBY,903
+670,Yuuzhan Vong War,6595 BBY,686
+671,Galactic Civil War,7331 BBY,838
+672,Galactic Civil War,4108 BBY,73
+673,Yuuzhan Vong War,277 BBY,374
+674,Battle of Endor,2653 BBY,756
+675,Great Jedi Purge,7109 BBY,491
+676,Galactic Civil War,3592 BBY,416
+677,Yuuzhan Vong War,216 BBY,793
+678,Battle of Endor,7164 BBY,117
+679,Great Jedi Purge,97 BBY,87
+680,Great Jedi Purge,5391 BBY,534
+681,Battle of Endor,5113 BBY,507
+682,Battle of Endor,2439 BBY,653
+683,Clone Wars,1683 BBY,319
+684,Battle of Endor,7842 BBY,898
+685,Galactic Civil War,8417 BBY,721
+686,Galactic Civil War,3147 BBY,521
+687,Galactic Civil War,9346 BBY,544
+688,Clone Wars,1982 BBY,798
+689,Galactic Civil War,950 BBY,851
+690,Great Jedi Purge,5143 BBY,91
+691,Galactic Civil War,6160 BBY,918
+692,Galactic Civil War,2780 BBY,379
+693,Great Jedi Purge,4524 BBY,69
+694,Battle of Endor,1835 BBY,835
+695,Yuuzhan Vong War,4520 BBY,795
+696,Yuuzhan Vong War,1731 BBY,554
+697,Clone Wars,4553 BBY,187
+698,Battle of Endor,6958 BBY,902
+699,Galactic Civil War,2289 BBY,619
+700,Great Jedi Purge,9130 BBY,747
+701,Battle of Endor,3773 BBY,503
+702,Galactic Civil War,22 BBY,444
+703,Great Jedi Purge,6024 BBY,991
+704,Battle of Endor,6998 BBY,51
+705,Galactic Civil War,9307 BBY,918
+706,Clone Wars,6038 BBY,52
+707,Galactic Civil War,1405 BBY,158
+708,Clone Wars,9026 BBY,392
+709,Galactic Civil War,8342 BBY,400
+710,Clone Wars,1351 BBY,808
+711,Yuuzhan Vong War,78 BBY,314
+712,Great Jedi Purge,4305 BBY,836
+713,Yuuzhan Vong War,5589 BBY,25
+714,Galactic Civil War,224 BBY,974
+715,Yuuzhan Vong War,6804 BBY,741
+716,Yuuzhan Vong War,2234 BBY,434
+717,Galactic Civil War,637 BBY,355
+718,Battle of Endor,9817 BBY,54
+719,Great Jedi Purge,7454 BBY,47
+720,Clone Wars,154 BBY,234
+721,Great Jedi Purge,5828 BBY,825
+722,Clone Wars,4896 BBY,400
+723,Galactic Civil War,4265 BBY,233
+724,Battle of Endor,4601 BBY,180
+725,Battle of Endor,7198 BBY,725
+726,Galactic Civil War,3716 BBY,880
+727,Galactic Civil War,6217 BBY,413
+728,Clone Wars,5756 BBY,600
+729,Battle of Endor,4201 BBY,218
+730,Yuuzhan Vong War,2087 BBY,303
+731,Clone Wars,6284 BBY,21
+732,Galactic Civil War,7859 BBY,705
+733,Clone Wars,2318 BBY,876
+734,Galactic Civil War,2089 BBY,955
+735,Clone Wars,4262 BBY,625
+736,Galactic Civil War,7882 BBY,506
+737,Clone Wars,4989 BBY,998
+738,Galactic Civil War,4380 BBY,310
+739,Battle of Endor,2808 BBY,40
+740,Yuuzhan Vong War,6063 BBY,510
+741,Yuuzhan Vong War,2564 BBY,950
+742,Great Jedi Purge,9032 BBY,910
+743,Clone Wars,2939 BBY,258
+744,Great Jedi Purge,981 BBY,714
+745,Great Jedi Purge,1564 BBY,820
+746,Clone Wars,7880 BBY,266
+747,Great Jedi Purge,1986 BBY,342
+748,Great Jedi Purge,3495 BBY,382
+749,Great Jedi Purge,537 BBY,259
+750,Battle of Endor,9503 BBY,745
+751,Yuuzhan Vong War,1243 BBY,787
+752,Galactic Civil War,1731 BBY,621
+753,Battle of Endor,5504 BBY,197
+754,Clone Wars,175 BBY,870
+755,Clone Wars,4197 BBY,107
+756,Battle of Endor,5009 BBY,725
+757,Galactic Civil War,7233 BBY,681
+758,Yuuzhan Vong War,3553 BBY,237
+759,Clone Wars,1267 BBY,903
+760,Battle of Endor,525 BBY,598
+761,Clone Wars,5243 BBY,898
+762,Galactic Civil War,5390 BBY,35
+763,Battle of Endor,3147 BBY,257
+764,Yuuzhan Vong War,3438 BBY,380
+765,Yuuzhan Vong War,9599 BBY,622
+766,Clone Wars,1392 BBY,175
+767,Clone Wars,1924 BBY,764
+768,Yuuzhan Vong War,548 BBY,483
+769,Great Jedi Purge,2069 BBY,895
+770,Great Jedi Purge,2450 BBY,723
+771,Clone Wars,2488 BBY,415
+772,Clone Wars,5200 BBY,837
+773,Great Jedi Purge,7092 BBY,899
+774,Battle of Endor,314 BBY,976
+775,Battle of Endor,8705 BBY,142
+776,Battle of Endor,5462 BBY,172
+777,Yuuzhan Vong War,1259 BBY,344
+778,Great Jedi Purge,915 BBY,634
+779,Clone Wars,8949 BBY,102
+780,Great Jedi Purge,5924 BBY,153
+781,Clone Wars,564 BBY,179
+782,Great Jedi Purge,3615 BBY,476
+783,Galactic Civil War,8889 BBY,4
+784,Great Jedi Purge,1807 BBY,856
+785,Clone Wars,6858 BBY,775
+786,Great Jedi Purge,3247 BBY,263
+787,Battle of Endor,2155 BBY,879
+788,Great Jedi Purge,943 BBY,959
+789,Galactic Civil War,8175 BBY,188
+790,Galactic Civil War,5936 BBY,266
+791,Yuuzhan Vong War,2722 BBY,347
+792,Clone Wars,9244 BBY,952
+793,Great Jedi Purge,3487 BBY,558
+794,Battle of Endor,1579 BBY,901
+795,Clone Wars,6117 BBY,281
+796,Clone Wars,8014 BBY,377
+797,Great Jedi Purge,3973 BBY,262
+798,Clone Wars,1512 BBY,886
+799,Great Jedi Purge,361 BBY,573
+800,Clone Wars,4827 BBY,491
+801,Battle of Endor,1073 BBY,705
+802,Clone Wars,8957 BBY,478
+803,Yuuzhan Vong War,1281 BBY,898
+804,Clone Wars,468 BBY,329
+805,Clone Wars,7482 BBY,184
+806,Galactic Civil War,8079 BBY,13
+807,Great Jedi Purge,491 BBY,619
+808,Galactic Civil War,1702 BBY,930
+809,Great Jedi Purge,912 BBY,309
+810,Great Jedi Purge,1240 BBY,5
+811,Yuuzhan Vong War,6463 BBY,752
+812,Great Jedi Purge,7282 BBY,742
+813,Clone Wars,4780 BBY,325
+814,Battle of Endor,5878 BBY,235
+815,Galactic Civil War,9813 BBY,642
+816,Galactic Civil War,398 BBY,3
+817,Battle of Endor,8074 BBY,364
+818,Battle of Endor,1575 BBY,468
+819,Clone Wars,6528 BBY,745
+820,Great Jedi Purge,3290 BBY,112
+821,Clone Wars,9706 BBY,672
+822,Yuuzhan Vong War,1530 BBY,64
+823,Yuuzhan Vong War,6593 BBY,149
+824,Great Jedi Purge,4883 BBY,625
+825,Clone Wars,1788 BBY,485
+826,Clone Wars,5867 BBY,971
+827,Clone Wars,7236 BBY,225
+828,Galactic Civil War,595 BBY,101
+829,Great Jedi Purge,8194 BBY,664
+830,Yuuzhan Vong War,1295 BBY,72
+831,Galactic Civil War,4153 BBY,626
+832,Clone Wars,6889 BBY,578
+833,Great Jedi Purge,3434 BBY,961
+834,Great Jedi Purge,5158 BBY,787
+835,Clone Wars,2517 BBY,286
+836,Galactic Civil War,1180 BBY,326
+837,Great Jedi Purge,2913 BBY,340
+838,Battle of Endor,9589 BBY,387
+839,Battle of Endor,3059 BBY,702
+840,Clone Wars,548 BBY,589
+841,Yuuzhan Vong War,2264 BBY,158
+842,Clone Wars,849 BBY,296
+843,Great Jedi Purge,5384 BBY,778
+844,Battle of Endor,6685 BBY,667
+845,Yuuzhan Vong War,6144 BBY,173
+846,Yuuzhan Vong War,3530 BBY,2
+847,Great Jedi Purge,8637 BBY,887
+848,Yuuzhan Vong War,4757 BBY,903
+849,Great Jedi Purge,9669 BBY,567
+850,Galactic Civil War,7074 BBY,477
+851,Clone Wars,4710 BBY,915
+852,Yuuzhan Vong War,8424 BBY,450
+853,Great Jedi Purge,2591 BBY,350
+854,Battle of Endor,2659 BBY,195
+855,Galactic Civil War,1776 BBY,55
+856,Galactic Civil War,6421 BBY,921
+857,Battle of Endor,6532 BBY,672
+858,Clone Wars,1529 BBY,778
+859,Galactic Civil War,9187 BBY,992
+860,Great Jedi Purge,4567 BBY,80
+861,Yuuzhan Vong War,5040 BBY,735
+862,Clone Wars,6174 BBY,875
+863,Battle of Endor,3784 BBY,658
+864,Clone Wars,6137 BBY,263
+865,Galactic Civil War,882 BBY,389
+866,Battle of Endor,7986 BBY,936
+867,Great Jedi Purge,2901 BBY,271
+868,Great Jedi Purge,1139 BBY,668
+869,Clone Wars,712 BBY,42
+870,Great Jedi Purge,6341 BBY,1000
+871,Yuuzhan Vong War,5482 BBY,329
+872,Yuuzhan Vong War,2077 BBY,41
+873,Galactic Civil War,4727 BBY,8
+874,Battle of Endor,1556 BBY,27
+875,Galactic Civil War,9235 BBY,622
+876,Yuuzhan Vong War,9450 BBY,349
+877,Galactic Civil War,2728 BBY,228
+878,Yuuzhan Vong War,2439 BBY,989
+879,Great Jedi Purge,4165 BBY,786
+880,Battle of Endor,4899 BBY,770
+881,Galactic Civil War,2211 BBY,413
+882,Galactic Civil War,1436 BBY,98
+883,Battle of Endor,959 BBY,212
+884,Galactic Civil War,10 BBY,233
+885,Galactic Civil War,8844 BBY,340
+886,Galactic Civil War,4075 BBY,758
+887,Clone Wars,7136 BBY,781
+888,Battle of Endor,6535 BBY,659
+889,Yuuzhan Vong War,6661 BBY,646
+890,Galactic Civil War,1762 BBY,232
+891,Battle of Endor,8721 BBY,371
+892,Battle of Endor,8143 BBY,479
+893,Great Jedi Purge,1013 BBY,920
+894,Great Jedi Purge,6410 BBY,659
+895,Great Jedi Purge,5203 BBY,735
+896,Clone Wars,537 BBY,740
+897,Yuuzhan Vong War,6957 BBY,341
+898,Galactic Civil War,747 BBY,591
+899,Great Jedi Purge,1800 BBY,518
+900,Yuuzhan Vong War,5830 BBY,839
+901,Clone Wars,6848 BBY,988
+902,Galactic Civil War,4315 BBY,557
+903,Great Jedi Purge,7870 BBY,643
+904,Clone Wars,1638 BBY,144
+905,Yuuzhan Vong War,9666 BBY,289
+906,Clone Wars,7384 BBY,453
+907,Yuuzhan Vong War,6820 BBY,346
+908,Battle of Endor,1067 BBY,16
+909,Great Jedi Purge,1777 BBY,999
+910,Great Jedi Purge,2520 BBY,405
+911,Yuuzhan Vong War,4144 BBY,421
+912,Galactic Civil War,1999 BBY,379
+913,Yuuzhan Vong War,659 BBY,656
+914,Yuuzhan Vong War,5871 BBY,879
+915,Galactic Civil War,2833 BBY,970
+916,Clone Wars,1933 BBY,997
+917,Yuuzhan Vong War,7260 BBY,313
+918,Galactic Civil War,2928 BBY,526
+919,Yuuzhan Vong War,5525 BBY,772
+920,Galactic Civil War,1546 BBY,163
+921,Battle of Endor,8769 BBY,941
+922,Battle of Endor,1520 BBY,67
+923,Galactic Civil War,9129 BBY,726
+924,Great Jedi Purge,3205 BBY,207
+925,Yuuzhan Vong War,1283 BBY,767
+926,Yuuzhan Vong War,525 BBY,700
+927,Clone Wars,4766 BBY,544
+928,Yuuzhan Vong War,2375 BBY,411
+929,Battle of Endor,1441 BBY,711
+930,Yuuzhan Vong War,230 BBY,168
+931,Great Jedi Purge,4462 BBY,567
+932,Clone Wars,9195 BBY,786
+933,Clone Wars,7133 BBY,541
+934,Clone Wars,8692 BBY,552
+935,Great Jedi Purge,6425 BBY,513
+936,Great Jedi Purge,8126 BBY,494
+937,Battle of Endor,836 BBY,81
+938,Yuuzhan Vong War,9921 BBY,498
+939,Yuuzhan Vong War,4905 BBY,487
+940,Great Jedi Purge,6479 BBY,743
+941,Great Jedi Purge,8351 BBY,936
+942,Great Jedi Purge,612 BBY,77
+943,Great Jedi Purge,886 BBY,543
+944,Yuuzhan Vong War,3264 BBY,181
+945,Galactic Civil War,2202 BBY,448
+946,Great Jedi Purge,8716 BBY,223
+947,Yuuzhan Vong War,163 BBY,602
+948,Clone Wars,4301 BBY,125
+949,Yuuzhan Vong War,712 BBY,295
+950,Great Jedi Purge,7754 BBY,3
+951,Battle of Endor,6086 BBY,137
+952,Yuuzhan Vong War,9067 BBY,140
+953,Galactic Civil War,273 BBY,793
+954,Great Jedi Purge,7966 BBY,921
+955,Great Jedi Purge,4656 BBY,653
+956,Clone Wars,2044 BBY,135
+957,Clone Wars,2521 BBY,95
+958,Galactic Civil War,4562 BBY,534
+959,Yuuzhan Vong War,7647 BBY,478
+960,Battle of Endor,2486 BBY,231
+961,Galactic Civil War,8537 BBY,907
+962,Battle of Endor,7650 BBY,226
+963,Battle of Endor,8233 BBY,173
+964,Clone Wars,5588 BBY,894
+965,Yuuzhan Vong War,6148 BBY,223
+966,Clone Wars,4982 BBY,978
+967,Great Jedi Purge,3879 BBY,384
+968,Great Jedi Purge,6629 BBY,774
+969,Yuuzhan Vong War,3352 BBY,867
+970,Battle of Endor,4774 BBY,257
+971,Battle of Endor,9300 BBY,702
+972,Great Jedi Purge,1258 BBY,483
+973,Clone Wars,2600 BBY,732
+974,Great Jedi Purge,16 BBY,426
+975,Yuuzhan Vong War,6405 BBY,391
+976,Clone Wars,3489 BBY,176
+977,Yuuzhan Vong War,2617 BBY,869
+978,Great Jedi Purge,8415 BBY,234
+979,Battle of Endor,4828 BBY,281
+980,Battle of Endor,3324 BBY,412
+981,Battle of Endor,7290 BBY,211
+982,Clone Wars,4354 BBY,927
+983,Galactic Civil War,4700 BBY,904
+984,Galactic Civil War,820 BBY,793
+985,Yuuzhan Vong War,9017 BBY,386
+986,Battle of Endor,4945 BBY,637
+987,Great Jedi Purge,4182 BBY,897
+988,Battle of Endor,5293 BBY,908
+989,Battle of Endor,908 BBY,130
+990,Battle of Endor,533 BBY,856
+991,Clone Wars,4635 BBY,586
+992,Yuuzhan Vong War,8212 BBY,918
+993,Yuuzhan Vong War,1800 BBY,660
+994,Clone Wars,6265 BBY,136
+995,Battle of Endor,5039 BBY,786
+996,Battle of Endor,9196 BBY,872
+997,Great Jedi Purge,3516 BBY,387
+998,Galactic Civil War,9674 BBY,111
+999,Battle of Endor,4502 BBY,936
+1000,Great Jedi Purge,1770 BBY,578
