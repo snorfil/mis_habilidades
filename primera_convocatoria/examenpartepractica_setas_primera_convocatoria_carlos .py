@@ -68,19 +68,28 @@ plt.show()
 """## **(0.2 puntos)** Ejercicio 2. Comprueba si alguna de las variables tiene más del 10% de sus ocurrencias con valores nulos."""
 
 # Cálculo del número y porcentaje de valores nulos por columna
-missing_values = df_train.isnull().sum()
-missing_percentage = (missing_values / len(df_train)) * 100
+null_percentage = df_train.isnull().mean() * 100
 
 # Creación de un DataFrame para visualizar los resultados
-missing_df = pd.DataFrame({'Numero de nullos': missing_values, 'Porcentaje': missing_percentage})
+# Determinar si alguna columna tiene más del 10% de sus valores como nulos
+columns_with_high_nulls = null_percentage[null_percentage > 10]
 
+# Mostrar las columnas que cumplen esta condición
+print(columns_with_high_nulls)
 # Filtrar y ordenar las columnas con valores nulos
-missing_df_sorted = missing_df[missing_df > 0].sort_values(by='Porcentaje', ascending=False)
+
 
 """## **(0.1 puntos)** Ejercicio 3. Comprueba qué valores diferentes existen para la variable **habitat** y comprueba que corresponde con su descripción en el enunciado del ejercicio"""
 
 # Obtención de los valores únicos para la variable 'habitat'
 unique_habitats = df_train['habitat'].unique()
+
+# Valores esperados para 'habitat' según el enunciado
+expected_habitats = {'g', 'l', 'm', 'p', 'u', 'w', 'd'}
+
+# Comparar los valores únicos encontrados con los esperados
+unexpected_habitats = set(unique_habitats) - expected_habitats
+print(unexpected_habitats)
 
 """# Preprocesamiento del dataset (2.5 puntos)
 
@@ -99,10 +108,19 @@ class EliminarColumnas(BaseEstimator, TransformerMixin):
         return self
 
     def transform(self, X):
-        # Verificar primero si las columnas existen antes de intentar eliminarlas
-        cols_to_drop = [col for col in self.columns if col in X.columns]
-        return X.drop(cols_to_drop, axis=1)
+        # Eliminar las columnas especificadas
+        X_transformed = X.drop(columns=self.columns)
+        return X_transformed
 
+# Supongamos que queremos eliminar las columnas 'cap-shape' y 'cap-surface'
+columns_to_drop = ['cap-shape', 'cap-surface']
+transformer = EliminarColumnas(columns_to_drop)
+
+# Aplicar el transformador a un dataframe
+df_transformed = transformer.fit_transform(df_train)
+
+# Mostrar las primeras filas del dataframe transformado
+df_transformed.head()
 
 """## **(0.2 puntos)** Ejercicio 5. Transformar todas las variables categóricas (**excepto class**) en numéricas utilizando la técnica de one-hot
 
@@ -124,6 +142,7 @@ pipeline_categorico = Pipeline([
     ('onehot', OneHotEncoder())
 ])
 
+
 # Crear un transformador de columnas para aplicar el pipeline solo a las columnas categóricas
 preprocessor = ColumnTransformer([
     ('cat', OneHotEncoder(), columnas_categoricas)
@@ -132,6 +151,19 @@ preprocessor = ColumnTransformer([
 # Aplicar el preprocesador al DataFrame (excepto a la columna 'class')
 one_hot_data = preprocessor.fit_transform(df_train)
 
+# Crear un DataFrame con las variables codificadas
+df_encoded = pd.DataFrame(one_hot_data.toarray(), columns=preprocessor.get_feature_names_out())
+
+# Calcular la matriz de correlación
+correlation_matrix = df_encoded.corr()
+
+
+import seaborn as sns
+# Visualizar la matriz de correlación
+plt.figure(figsize=(20, 16))
+sns.heatmap(correlation_matrix, cmap='coolwarm')
+plt.title('Matriz de Correlación')
+plt.show()
 """## **(0.2 puntos)** Ejercicio 6. Convertir los valores **e** de *class* en 0 y los valores **p** en 1"""
 
 
@@ -154,8 +186,6 @@ from sklearn.pipeline import Pipeline
 # Crear un pipeline completo incluyendo la eliminación de columnas y el preprocesamiento categórico
 full_pipeline = Pipeline([
     ('eliminar_columnas', EliminarColumnas(columns=['veil-type', 'gill-color', 'bruises', 'ring-type'])),
-    ('preprocesador', preprocessor),
-    ('clasificador',)  # Aquí se podría añadir un clasificador
 ])
 
 # Aplicar el pipeline completo al dataset de entrenamiento
@@ -167,18 +197,20 @@ processed_data = full_pipeline.fit_transform(df_train)
 ### **(0.25 puntos)** 8.1. Muestra la matriz de correlación de todas las variables del dataset
 """
 
-import seaborn as sns
+i# Aplicar el preprocesador al DataFrame (excepto a la columna 'class')
+one_hot_data = preprocessor.fit_transform(df_train)
 
-# Suponiendo que las características han sido ya codificadas como numéricas
-# Convertir a DataFrame para visualización
-processed_df = pd.DataFrame(processed_data)
+# Crear un DataFrame con las variables codificadas
+df_encoded = pd.DataFrame(one_hot_data.toarray(), columns=preprocessor.get_feature_names_out())
 
 # Calcular la matriz de correlación
-correlation_matrix = processed_df.corr()
+correlation_matrix = df_encoded.corr()
 
-# Visualización de la matriz de correlación con Seaborn
-plt.figure(figsize=(12, 8))
-sns.heatmap(correlation_matrix, annot=True, fmt=".2f")
+
+import seaborn as sns
+# Visualizar la matriz de correlación
+plt.figure(figsize=(20, 16))
+sns.heatmap(correlation_matrix, cmap='coolwarm')
 plt.title('Matriz de Correlación')
 plt.show()
 
