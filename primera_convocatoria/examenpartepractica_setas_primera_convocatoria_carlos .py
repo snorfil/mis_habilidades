@@ -49,20 +49,7 @@ import pandas as pd
 
 df_train = pd.read_csv('mushrooms.csv', delimiter=',')
 
-"""# Ejercicios
 
-## Instrucciones
-
-A continuación se presentan una serie de ejercicios que el alumno deberá resolver siguiendo estas instrucciones:
-
-*   NO modificar ninguno de los cuadros de texto del documento.
-*   NO crear ningún nuevo cuadro de texto o código.
-*   ÚNICAMENTE escribir código dentro de los cuadros de código. Si el alumno tiene que realizar alguna aclaración o descripción deberá hacerla a través de comentarios Python.
-
-# Análisis del dataset (0.5 puntos)
-
-## **(0.2 puntos)** Ejercicio 1. Comprueba a través de un diagrama de barras si la variable a predecir (class) se encuentra balanceada o no.
-"""
 
 import matplotlib.pyplot as plt
 
