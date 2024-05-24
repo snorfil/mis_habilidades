@@ -197,7 +197,7 @@ processed_data = full_pipeline.fit_transform(df_train)
 ### **(0.25 puntos)** 8.1. Muestra la matriz de correlación de todas las variables del dataset
 """
 
-i# Aplicar el preprocesador al DataFrame (excepto a la columna 'class')
+# Aplicar el preprocesador al DataFrame (excepto a la columna 'class')
 one_hot_data = preprocessor.fit_transform(df_train)
 
 # Crear un DataFrame con las variables codificadas
@@ -216,21 +216,15 @@ plt.show()
 
 """### **(0.75 puntos)** 8.2  Modifica el dataset para quedarte con las variables que tengan una correlación mayor que 0.3"""
 
-# Supongamos que 'y' es la columna de la variable objetivo convertida a numérica previamente
-correlation_with_target = processed_df.corrwith(df_class)
-
-# Filtrar columnas con una correlación superior a 0.3
-high_corr_columns = correlation_with_target[correlation_with_target.abs() > 0.3].index
-
-# Seleccionar solo las columnas filtradas en el DataFrame
-high_corr_df = processed_df[high_corr_columns]
-
+threshold = 0.3
+strong_correlation_columns = correlation_matrix.columns[
+    (correlation_matrix.abs() > threshold).any(axis=0)]
 """##  Ejercicio 9. Divide el dataset guardando el 80% para entrenamiento y el 20% para test **(0.2 puntos)**. Posteriormente normaliza ambos subconjuntos **(0.5 puntos)**."""
 
 from sklearn.model_selection import train_test_split
 
 # Asignar las características y la variable objetivo
-X = high_corr_df  # Características filtradas por alta correlación
+X = correlation_matrix[strong_correlation_columns]  # Características filtradas por alta correlación
 y = df_class  # Variable objetivo ya convertida
 
 # Dividir el dataset
@@ -257,22 +251,45 @@ X_test_scaled = scaler.transform(X_test)
 *   Configura como función de coste Sparse Categorical Crossentropy.
 *   Entrena el modelo utilizando el 10% del conjunto de entrenamiento para validación.
 """
-
 import tensorflow as tf
-from tensorflow import keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, InputLayer
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import SparseCategoricalCrossentropy
+from tensorflow.keras.metrics import SparseCategoricalAccuracy
+from sklearn.model_selection import train_test_split
 
-# Definir la estructura del modelo
-model = keras.models.Sequential([
-    keras.layers.Dense(300, activation="relu", input_shape=[X_train_scaled.shape[1]]),
-    keras.layers.Dense(100, activation="relu"),
-    keras.layers.Dense(1, activation="sigmoid")  # Cambio a 'sigmoid' porque la clase es binaria
+# Separar las características y la etiqueta
+X = df_encoded.drop('class_e', axis=1)  # Asumimos que 'class_e' es la columna de etiquetas
+y = df_encoded['class_e']
+
+# Dividir los datos en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+
+# Crear el modelo
+model = Sequential([
+    InputLayer(input_shape=(X_train.shape[1],)),
+    Dense(64, activation='relu'),    # Primera capa oculta
+    Dense(32, activation='relu'),    # Segunda capa oculta
+    Dense(2, activation='softmax')   # Capa de salida, suponiendo que tenemos dos clases
 ])
 
-# Compilación del modelo
-model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+# Compilar el modelo
+model.compile(optimizer=Adam(),
+              loss=SparseCategoricalCrossentropy(),
+              metrics=[SparseCategoricalAccuracy()])
 
-# Entrenamiento del modelo
-history = model.fit(X_train_scaled, y_train, epochs=30, validation_split=0.1)
+# Entrenar el modelo utilizando el 10% del conjunto de entrenamiento para validación
+history = model.fit(X_train, y_train,
+                    validation_split=0.1,
+                    epochs=20,
+                    batch_size=32)
+
+# Evaluar el modelo en el conjunto de prueba
+test_loss, test_accuracy = model.evaluate(X_test, y_test)
+
+print(f'Test Loss: {test_loss}')
+print(f'Test Accuracy: {test_accuracy}')
 
 """## **(0.5 punto)** Ejercicio 10.2. Genera la matriz de confusión de dicho modelo. ¿Cuántas setas que NO son comestibles las ha clasificado como comestibles?"""
 
@@ -291,8 +308,25 @@ plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.title('Confusion Matrix')
 plt.show()
-
-"""## **(0.5 punto)** Ejercicio 10.3. Genera tres modelos SVM de clasificación utilizando diferentes kernels e hiperparámetros."""
+#
+# # Predecir las etiquetas del conjunto de prueba
+# y_pred = model.predict(X_test)
+# y_pred_classes = y_pred.argmax(axis=1)
+#
+# # Generar la matriz de confusión
+# conf_matrix = confusion_matrix(y_test, y_pred_classes)
+# print('Matriz de Confusión:')
+# print(conf_matrix)
+#
+# # Informe de clasificación
+# class_report = classification_report(y_test, y_pred_classes, target_names=['No comestible', 'Comestible'])
+# print('Informe de Clasificación:')
+# print(class_report)
+#
+# # Mostrar cuántas setas que no son comestibles fueron clasificadas como comestibles
+# false_negatives = conf_matrix[0, 1]
+# print(f'Número de setas no comestibles clasificadas como comestibles: {false_negatives}')
+# """## **(0.5 punto)** Ejercicio 10.3. Genera tres modelos SVM de clasificación utilizando diferentes kernels e hiperparámetros."""
 
 from sklearn.svm import SVC
 
